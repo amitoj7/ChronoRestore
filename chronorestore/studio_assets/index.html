@@ -8,6 +8,7 @@
   <link rel="icon" href="/studio/logo.png" type="image/png">
   <link rel="stylesheet" href="/studio/style.css">
   <link rel="stylesheet" href="/studio/cursor.css">
+  <script src="/studio/simulate-damage.js" defer></script>
   <script src="/studio/studio.js" defer></script>
   <script src="/studio/cursor.js" defer></script>
 </head>
@@ -31,13 +32,15 @@
             <button type="button" data-mode="split" aria-pressed="true">Split</button>
             <button type="button" data-mode="before" aria-pressed="false">Before</button>
             <button type="button" data-mode="after" aria-pressed="false">After</button>
+            <button type="button" data-mode="clean" aria-pressed="false" hidden>Original</button>
           </div>
         </div>
         <div class="stage">
           <div id="frame" class="frame" data-mode="split">
             <img id="before" src="/studio/alpine-before.webp" width="256" height="256" alt="Photo before restoration" draggable="false">
             <img id="after" src="/studio/alpine-after.webp" width="256" height="256" alt="Photo after restoration" draggable="false">
-            <span class="tag tag-before">ORIGINAL</span><span class="tag tag-after">RESTORED</span>
+            <img id="clean" alt="Uploaded photo before damage simulation" draggable="false">
+            <span id="before-tag" class="tag tag-before">ORIGINAL</span><span class="tag tag-after">RESTORED</span>
             <span class="divider" aria-hidden="true"><span>‹ ›</span></span>
             <input id="reveal" type="range" min="0" max="100" value="49" aria-label="Percentage of original photo revealed">
           </div>
@@ -56,6 +59,7 @@
         </button>
         <input type="file" id="file" accept="image/jpeg,image/png,image/webp,.jpg,.jpeg,.png,.webp" hidden>
         <div id="selection" class="selection" hidden><span id="filename"></span><button type="button" id="clear" aria-label="Remove selected photo">×</button></div>
+        <label class="simulate"><input id="simulate" type="checkbox"> Simulate damage on a clean upload</label>
         <fieldset class="quality"><legend>Restoration mode</legend>
           <label><input type="radio" name="quality" value="standard" checked> Standard</label>
           <label><input type="radio" name="quality" value="refine"> Refine</label>

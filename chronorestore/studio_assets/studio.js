@@ -11,8 +11,12 @@ const picker = get("file");
 const drop = get("drop");
 const dataset = get("dataset-photo");
 const randomPhoto = get("dataset-random");
+const simulate = get("simulate");
 let selected = null;
 let originalUrl = "";
+let isUpload = false;
+let simulated = null;
+let usingSimulation = false;
 let restoredUrl = "";
 let busy = false;
 let width = 256;
@@ -24,14 +28,17 @@ function fitFrame() {
   frame.style.height = `${height * scale}px`;
 }
 
-function setMode(mode, hasResult = true) {
+function setMode(mode, hasResult = !selected || Boolean(restoredUrl)) {
   frame.dataset.mode = mode;
   for (const button of modeButtons) {
     button.setAttribute("aria-pressed", String(button.dataset.mode === mode));
-    button.disabled = !hasResult && button.dataset.mode !== "before";
+    button.hidden = button.dataset.mode === "clean" && !usingSimulation;
+    button.disabled = !hasResult && ["after", "split"].includes(button.dataset.mode);
+    if (button.dataset.mode === "before") button.textContent = usingSimulation ? "Damaged" : "Before";
   }
   get("hint").textContent = mode === "split" ? "Drag the divider to reveal the restoration." :
-    mode === "after" ? "Restored photo" : "Original photo";
+    mode === "after" ? "Restored photo" :
+    mode === "clean" ? "Original upload" : usingSimulation ? "Simulated damage" : "Original photo";
 }
 
 function status(message, kind = "") {
@@ -45,16 +52,37 @@ function setBusy(value) {
   drop.disabled = value;
   dataset.disabled = randomPhoto.disabled = value;
   get("clear").disabled = value;
+  simulate.disabled = value || Boolean(selected && !isUpload);
   for (const sample of samples) sample.disabled = value;
   for (const option of document.querySelectorAll('input[name="quality"]')) option.disabled = value;
 }
 
 function clearUrls() {
   if (originalUrl) URL.revokeObjectURL(originalUrl);
+  if (simulated) URL.revokeObjectURL(simulated.url);
+  originalUrl = "";
+  simulated = null;
+  showInput(false);
+  get("clean").removeAttribute("src");
+  clearResult();
+}
+
+function clearResult() {
   if (restoredUrl) URL.revokeObjectURL(restoredUrl);
-  originalUrl = restoredUrl = "";
+  restoredUrl = "";
+  get("after").removeAttribute("src");
   download.hidden = true;
   download.removeAttribute("href");
+}
+
+function showInput(useSimulation) {
+  usingSimulation = useSimulation;
+  const before = get("before");
+  if (originalUrl) before.src = useSimulation ? simulated.url : originalUrl;
+  before.alt = useSimulation ? "Photo with simulated damage" : "Photo before restoration";
+  get("before-tag").textContent = useSimulation ? "SIMULATED DAMAGE" : "ORIGINAL";
+  reveal.setAttribute("aria-label", useSimulation
+    ? "Percentage of damaged photo revealed" : "Percentage of original photo revealed");
 }
 
 function showSample(sample) {
@@ -105,7 +133,9 @@ async function pick(file, scene = "Your photo") {
     }
     clearUrls();
     selected = file;
+    isUpload = scene === "Your photo";
     originalUrl = url;
+    get("clean").src = url;
     get("before").src = url;
     get("after").removeAttribute("src");
     get("scene").textContent = scene;
@@ -143,7 +173,20 @@ async function restoreSelected() {
   const start = performance.now();
   try {
     const refine = document.querySelector('input[name="quality"]:checked').value === "refine";
-    const blob = hostedRestore ? await hostedRestore.run(selected, refine) : await restoreOnServer(selected, refine);
+    const useSimulation = isUpload && simulate.checked;
+    if (useSimulation && !simulated) {
+      status("Simulating damage…", "busy");
+      const file = await simulatePhotoDamage(selected);
+      simulated = { file, url: URL.createObjectURL(file) };
+    }
+    if (useSimulation !== usingSimulation) {
+      clearResult();
+      showInput(useSimulation);
+      setMode("before");
+    }
+    status("Restoring your photo…", "busy");
+    const input = useSimulation ? simulated.file : selected;
+    const blob = hostedRestore ? await hostedRestore.run(input, refine) : await restoreOnServer(input, refine);
     const url = URL.createObjectURL(blob);
     const after = new Image();
     after.src = url;
@@ -173,6 +216,9 @@ async function restoreSelected() {
 }
 
 restore.addEventListener("click", restoreSelected);
+simulate.addEventListener("change", () => {
+  if (selected && isUpload) restoreSelected();
+});
 
 async function loadDatasetPhoto() {
   if (busy || !dataset.value) return;

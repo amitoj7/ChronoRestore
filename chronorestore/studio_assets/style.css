@@ -29,7 +29,7 @@ h1 em{color:var(--mint);font-weight:normal}
 h2{font-weight:650;letter-spacing:-.035em;margin-bottom:8px}
 .preview-head h2{font-size:21px;margin:0}
 .preview-head .micro{margin-bottom:4px}
-.modes{display:flex;gap:2px;background:#eee7db;padding:4px;border:1px solid var(--edge);border-radius:9px}
+.modes{display:flex;flex-wrap:wrap;gap:2px;background:#eee7db;padding:4px;border:1px solid var(--edge);border-radius:9px}
 .modes button{background:transparent;border:0;padding:6px 11px;color:var(--muted);border-radius:6px;font-size:12px}
 .modes button[aria-pressed=true]{color:var(--deep);background:var(--mint);font-weight:650}
 .stage{display:grid;place-items:center;min-height:320px;height:clamp(320px,42vh,500px);background:radial-gradient(ellipse,#2e3d32,#eee7db 75%);overflow:hidden}
@@ -39,6 +39,7 @@ h2{font-weight:650;letter-spacing:-.035em;margin-bottom:8px}
 .frame[data-mode=before] #before{clip-path:none}
 .frame[data-mode=after] #before,.frame[data-mode=before] #after,.frame[data-mode=before] .tag-after,.frame[data-mode=after] .tag-before,.frame:not([data-mode=split]) :is(.divider,#reveal){display:none}
 .tag{position:absolute;top:12px;padding:6px 9px;border-radius:5px;background:#121815e8;font-size:9px;font-weight:750;letter-spacing:.13em;z-index:2;pointer-events:none}
+.frame:not([data-mode=clean]) #clean,.frame[data-mode=clean] :is(#before,#after,.tag){display:none}
 .tag-before{left:12px}
 .tag-after{right:12px;color:var(--mint)}
 .divider{position:absolute;left:var(--reveal);height:100%;width:2px;background:var(--mint);z-index:3;pointer-events:none}
@@ -176,3 +177,6 @@ footer{border-top:1px solid var(--edge);margin-top:48px}
 .paper-grid h4{margin:0 0 6px;font-size:14px}
 .research-limit{border-top:1px solid var(--edge);margin:18px 0 0;padding-top:13px}
 @media(max-width:600px){.research-flow,.paper-grid{grid-template-columns:1fr}.research-signals article{padding:8px}.research-signals span{font-size:11px}}
+
+.simulate{display:flex;align-items:center;gap:6px;margin-top:12px;font-size:12px;color:var(--muted)}
+.simulate input{accent-color:var(--mint)}
