@@ -39,13 +39,12 @@ h1 em{color:var(--accent)}
 .tile{background-image:var(--atlas);background-size:300% 300%;background-position:var(--cell);box-shadow:inset 0 0 0 1px #ffffff20;background-color:#4b443a}
 #cube-help{color:var(--muted);font:11px ui-monospace,monospace;margin:2px 0 0;display:none}
 .enhanced ~ #cube-help{display:block}
-.collection{background:#ece5d7;color:#211f1e;padding:clamp(45px,7vw,104px) clamp(20px,5.5vw,90px)}
-.collection-heading{display:flex;justify-content:space-between;align-items:end;gap:20px;margin-bottom:28px}
-h2{font-size:clamp(54px,8vw,106px);line-height:1;margin:0}
+.collection{--proof-width:clamp(380px,70svh,596px);--proof-gap:clamp(16px,3vw,36px);background:#ece5d7;color:#211f1e;padding:clamp(35px,5.5vw,72px) clamp(20px,5.5vw,90px)}
+.collection-heading{display:flex;justify-content:space-between;align-items:end;gap:20px;margin-bottom:24px}
+h2{font-size:clamp(42px,5.25vw,72px);line-height:1;margin:0}
 .collection-heading p,.research-link p{font-size:15px;line-height:1.6;max-width:36ch;margin:0}
-.case{overflow:hidden;display:block;border-bottom:1px solid #211f1e50}
-.research-link{margin-top:52px;border-top:1px solid #211f1e50;padding-top:24px;display:flex;justify-content:space-between;align-items:center;gap:15px}
-.research-link strong{font:400 clamp(27px,5vw,56px)/1 Georgia,serif;color:#9c3824;letter-spacing:-.06em}
+.research-link{margin-top:36px;border-top:1px solid #211f1e50;padding-top:24px;display:flex;justify-content:space-between;align-items:center;gap:15px}
+.research-link strong{font:400 clamp(25px,3.5vw,42px)/1 Georgia,serif;color:#9c3824;letter-spacing:-.06em}
 .research-link p{max-width:none;margin-top:7px}
 .research-link a{font-weight:650;padding-bottom:4px;border-bottom:1px solid}
 footer{padding-block:22px;color:var(--muted);font-size:12px}
@@ -62,34 +61,35 @@ footer{padding-block:22px;color:var(--muted);font-size:12px}
 html.lenis{scroll-behavior:auto}
 .signature{white-space:nowrap}
 .heart{color:var(--accent)}
-.proof{display:grid;grid-template-columns:minmax(205px, .63fr) minmax(0, 1.6fr);align-items:start;gap:clamp(18px,4vw,62px)}
+.collection-heading,.proof,.research-link{max-width:calc(270px + var(--proof-gap) + var(--proof-width) + 20px);margin-inline:auto}
+.proof{display:grid;grid-template-columns:minmax(180px,1fr) minmax(0,calc(var(--proof-width) + 20px));align-items:start;gap:var(--proof-gap)}
 .proof-index{border-top:1px solid #211f1e50}
-.case{display:grid;grid-template-columns:60px 1fr auto;gap:12px;align-items:center;padding:13px 8px;border-bottom:1px solid #211f1e50;transition:background .2s}
-.case img{width:60px;height:58px;object-fit:cover;display:block}
+.case{display:grid;grid-template-columns:46px 1fr auto;gap:10px;align-items:center;padding:8px;border-bottom:1px solid #211f1e50;transition:background .2s}
+.case img{width:46px;height:46px;object-fit:cover;display:block}
 .case small{display:block;font:650 9px/1.5 ui-monospace,monospace;letter-spacing:.065em;color:#70574a}
 .case>span{font-weight:680;font-size:14px}
 .case[aria-current=true],.case:hover{background:#211f1e0d}
 .case[aria-current=true]>span:last-child{color:#a64231}
-.proof-print{margin:0;padding:12px;background:#faf4e9;box-shadow:0 14px 32px #43322320;border:1px solid #bdad9a}
+.proof-print{margin:0;padding:9px;background:#faf4e9;box-shadow:0 14px 32px #43322320;border:1px solid #bdad9a}
 .proof-image{--cut:46%;position:relative;aspect-ratio:1.44;background:#302e2b;overflow:hidden}
 .proof-image img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;pointer-events:none}
 #proof-before{clip-path:inset(0 calc(100% - var(--cut)) 0 0)}
 .proof-tag{position:absolute;top:12px;left:12px;padding:5px 7px;background:#211d18e8;color:#fffaf1;font:10px ui-monospace,monospace;pointer-events:none}
 .right-tag{left:auto;right:12px}
 .proof-divider{position:absolute;top:0;bottom:0;left:var(--cut);width:2px;background:#fff3df;pointer-events:none}
-.proof-divider span{display:grid;place-items:center;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:36px;height:36px;background:#fff3df;border-radius:50%;color:#211f1e}
+.proof-divider span{display:grid;place-items:center;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:32px;height:32px;background:#fff3df;border-radius:50%;color:#211f1e}
 #proof-range{appearance:none;position:absolute;inset:0;width:100%;height:100%;margin:0;background:transparent;cursor:ew-resize}
 #proof-range::-webkit-slider-thumb{appearance:none;width:1px;height:36px;background:transparent}
 #proof-range::-moz-range-thumb{width:1px;height:36px;border:0;background:transparent}
 #proof-range:focus-visible{outline-offset:-4px}
-.proof-print figcaption{padding:13px 2px 3px;display:flex;justify-content:space-between;align-items:end;gap:10px}
-#proof-title{font:400 25px Georgia,serif}
-#proof-detail{font-size:13px;margin:5px 0 10px;color:#5d5147}
+.proof-print figcaption{padding:10px 2px 2px;display:flex;justify-content:space-between;align-items:end;gap:10px}
+#proof-title{font:400 22px Georgia,serif}
+#proof-detail{font-size:13px;margin:4px 0 7px;color:#5d5147}
 #proof-score{color:#873925;font:600 11px ui-monospace,monospace}
 #proof-link{font-size:12px;font-weight:650;white-space:nowrap;border-bottom:1px solid #8b6e5b;padding-bottom:4px}
 @media(pointer:fine){
 }
-@media(max-width:650px){.proof{grid-template-columns:1fr;gap:12px}.proof-index{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:5px;border-top:0}.case{display:block;padding:5px;line-height:1.3}.case img{width:100%;height:54px;margin-bottom:4px}.case small,.case>span:last-child{display:none}.case>span{font-size:11px}.proof-print{padding:7px}.proof-print figcaption{align-items:start;flex-direction:column}}
+@media(max-width:650px){.proof{grid-template-columns:1fr;gap:12px}.proof-index{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:5px;border-top:0}.case{display:block;padding:5px;line-height:1.3}.case img{width:100%;height:54px;margin-bottom:4px}.case small,.case>span:last-child{display:none}.case>span{font-size:11px}.proof-print{padding:7px}.proof-image{aspect-ratio:1.3}.proof-print figcaption{align-items:start;flex-direction:column}}
 
 .orbit[data-state="damaged"]{--atlas:url("cube-damaged.webp")}
 .orbit[data-state="reference"]{--atlas:url("cube-reference.webp")}
