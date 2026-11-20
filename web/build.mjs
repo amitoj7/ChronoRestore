@@ -11,8 +11,7 @@ await cp(new URL("archive.html", assets), new URL("index.html", dist));
 const workbench = await readFile(new URL("index.html", assets), "utf8");
 await writeFile(new URL("workbench.html", dist), workbench
   .replace('<script src="/studio/studio.js" defer></script>', '<script src="/studio/hosted.js" defer></script>\n  <script src="/studio/studio.js" defer></script>')
-  .replace("Running locally", "Restores in your browser")
-  .replace("JPG, PNG, WEBP · up to 24 MB", "JPG, PNG, WEBP · up to 24 MB and 2 MP"));
+  .replace("Running locally", "Restores in your browser"));
 for (const name of ["hosted.js", "restore-worker.mjs", "models/detail.onnx"]) {
   await cp(new URL(name, import.meta.url), new URL(name.split("/").pop(), studio));
 }

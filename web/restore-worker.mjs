@@ -35,8 +35,13 @@ async function restore(source, width, height, refine) {
   const sums = new Float32Array(width * height * 3);
   const views = refine ? [[false, false], [true, false], [false, true], [true, true]] : [[false, false]];
 
-  for (const top of positions(height)) {
-    for (const left of positions(width)) {
+  const rows = positions(height);
+  const columns = positions(width);
+  const totalTiles = rows.length * columns.length;
+  let completed = 0;
+  self.postMessage({ progress: 0 });
+  for (const top of rows) {
+    for (const left of columns) {
       for (const [flipX, flipY] of views) {
         const patch = new Float32Array(plane * 3);
         for (let y = 0; y < padH; y++) {
@@ -67,6 +72,7 @@ async function restore(source, width, height, refine) {
         restoration.dispose();
         tensor.dispose();
       }
+      self.postMessage({ progress: Math.round(100 * ++completed / totalTiles) });
     }
   }
 

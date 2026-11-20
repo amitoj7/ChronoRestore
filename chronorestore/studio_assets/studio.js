@@ -102,10 +102,10 @@ function showSample(sample) {
   for (const item of samples) item.setAttribute("aria-pressed", String(item === sample));
 }
 
-function setDimensions(w, h) {
+function setDimensions(w, h, wasResized = false) {
   width = w;
   height = h;
-  get("dimensions").textContent = `${w} × ${h} px`;
+  get("dimensions").textContent = `${w} × ${h} px${wasResized ? " (resized)" : ""}`;
   fitFrame();
 }
 
@@ -127,12 +127,14 @@ async function pick(file, scene = "Your photo") {
     const preview = new Image();
     preview.src = url;
     await preview.decode();
-    if (preview.naturalWidth * preview.naturalHeight > (hostedRestore?.maxPixels ?? 25_000_000)) {
-      const limit = hostedRestore ? 2 : 25;
-      throw new Error(`Choose an image of ${limit} megapixels or less.`);
+    const { naturalWidth, naturalHeight } = preview;
+    if (!hostedRestore && naturalWidth * naturalHeight > 25_000_000) {
+      throw new Error("Choose an image of 25 megapixels or less.");
     }
+    const prepared = hostedRestore ? await hostedRestore.prepare(file, preview) :
+      { file, width: naturalWidth, height: naturalHeight };
     clearUrls();
-    selected = file;
+    selected = prepared.file;
     isUpload = scene === "Your photo";
     originalUrl = url;
     get("clean").src = url;
@@ -143,7 +145,7 @@ async function pick(file, scene = "Your photo") {
     get("filename").textContent = file.name;
     get("selection").hidden = false;
     for (const sample of samples) sample.setAttribute("aria-pressed", "false");
-    setDimensions(preview.naturalWidth, preview.naturalHeight);
+    setDimensions(prepared.width, prepared.height, prepared.file !== file);
     setMode("before", false);
     ready = true;
   } catch (error) {
@@ -184,9 +186,10 @@ async function restoreSelected() {
       showInput(useSimulation);
       setMode("before");
     }
-    status("Restoring your photo…", "busy");
+    status(hostedRestore ? "Loading restoration model…" : "Restoring your photo…", "busy");
     const input = useSimulation ? simulated.file : selected;
-    const blob = hostedRestore ? await hostedRestore.run(input, refine) : await restoreOnServer(input, refine);
+    const progress = percent => status(`Restoring your photo… ${percent}%`, "busy");
+    const blob = hostedRestore ? await hostedRestore.run(input, refine, progress) : await restoreOnServer(input, refine);
     const url = URL.createObjectURL(blob);
     const after = new Image();
     after.src = url;

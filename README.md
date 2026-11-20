@@ -4,7 +4,7 @@ A compact old-photo restoration GAN: synthetic aging and damage → U-Net restor
 
 ## Hosted studio
 
-The Vercel build serves the archive and workbench as a static site. The trained Detail model runs in a browser worker with ONNX Runtime Web. Both Standard and Refine are available, and photos stay on the device. The hosted workbench accepts JPG, PNG and WebP files up to 24 MB and 2 megapixels. The Python studio supports larger images.
+The Vercel build serves the archive and workbench as a static site. The trained Detail model runs in a browser worker with ONNX Runtime Web. Both Standard and Refine are available, and photos stay on the device. The hosted workbench accepts JPG, PNG and WebP files up to 24 MB and resizes larger images to at most 2 megapixels for browser inference. The Python studio supports larger images.
 
 Run `npm ci && npm run build` to generate the static site in `dist/`. The included Vercel configuration serves the studio at `/workbench`. To regenerate the deployed model from a local checkpoint, install the `onnx` export dependency, then run `python -m scripts.export_web_model runs/detail_finetune/best.pt`.
 
