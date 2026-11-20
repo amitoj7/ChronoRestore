@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#17191b">
+  <title>ChronoRestore Archive</title>
+  <link rel="icon" href="/studio/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/studio/lenis.css">
+  <link rel="stylesheet" href="/studio/archive.css">
+  <link rel="stylesheet" href="/studio/cursor.css">
+  <link rel="preload" as="image" href="/studio/cube-restored.webp">
+  <script src="/studio/lenis.min.js" defer></script>
+  <script src="/studio/archive.js" defer></script>
+  <script src="/studio/cursor.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#archive">Skip to archive</a>
+  <header class="site-head">
+    <a class="wordmark" href="/" aria-label="ChronoRestore home"><img class="brand-logo" src="/studio/logo.svg" alt="" width="32" height="32">ChronoRestore<span class="mark-dot">.</span></a>
+    <nav aria-label="Main navigation"><a href="#collection">Collection</a><a href="/workbench#benchmark">Research</a><a class="nav-cta" href="/workbench">Open studio <span aria-hidden="true">↗</span></a></nav>
+  </header>
+  <main id="archive">
+    <section class="hero" aria-labelledby="archive-title">
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span> Interactive photo archive</p>
+          <h1 id="archive-title">Restoration<br><em>archive.</em></h1>
+          <p>Turn the cube to explore photographs before and after neural restoration.</p>
+          <a class="text-link" href="#collection">Explore the collection <span aria-hidden="true">↓</span></a>
+        </div>
+        <div class="object">
+          <div id="orbit" class="orbit" data-state="restored" tabindex="0" role="group" aria-label="Rotating photo cube" aria-describedby="cube-help">
+            <div class="cube" id="cube" aria-hidden="true"></div>
+            <img class="cube-fallback" src="/studio/cube-restored.webp" width="576" height="576" alt="Nine photographs from the restoration archive">
+          </div>
+          <div class="cube-states" role="group" aria-label="Cube photo state">
+            <button type="button" data-cube-state="damaged" aria-pressed="false">Damaged</button>
+            <button type="button" data-cube-state="restored" aria-pressed="true">Restored</button>
+            <button type="button" data-cube-state="reference" aria-pressed="false">Clean Reference</button>
+          </div>
+          <p id="cube-help">Drag to steer</p>
+        </div>
+      </div>
+    </section>
+    <section class="collection" id="collection" aria-labelledby="collection-title">
+      <div class="collection-heading reveal-item">
+        <h2 id="collection-title">The proof sheet.</h2>
+        <p>Six test images, each with a different kind of visible damage. Drag the divider to see what the model recovered.</p>
+      </div>
+      <div class="proof reveal-item">
+        <div class="proof-index" role="group" aria-label="Choose a photograph">
+          <a class="case" data-case="alpine" aria-current="true" href="/workbench?sample=alpine#workspace"><img src="/studio/alpine-after.webp" loading="lazy" width="256" height="256" alt=""><span><small>01 / LANDSCAPE</small>Alpine railway</span><span aria-hidden="true">↗</span></a>
+          <a class="case" data-case="engine" href="/workbench?sample=engine#workspace"><img src="/studio/engine-after.webp" loading="lazy" width="256" height="256" alt=""><span><small>02 / COLOR</small>Fire engine</span><span aria-hidden="true">↗</span></a>
+          <a class="case" data-case="boathouse" href="/workbench?sample=boathouse#workspace"><img src="/studio/boathouse-after.webp" loading="lazy" width="256" height="256" alt=""><span><small>03 / TEXTURE</small>Boathouse</span><span aria-hidden="true">↗</span></a>
+          <a class="case" data-case="portrait" href="/workbench?sample=portrait#workspace"><img src="/studio/portrait-after.webp" loading="lazy" width="256" height="256" alt=""><span><small>04 / TONAL RANGE</small>Portrait</span><span aria-hidden="true">↗</span></a>
+          <a class="case" data-case="wildflower" href="/workbench?sample=wildflower#workspace"><img src="/studio/wildflower-after.webp" loading="lazy" width="256" height="256" alt=""><span><small>05 / FINE EDGES</small>Wildflower</span><span aria-hidden="true">↗</span></a>
+          <a class="case" data-case="dog" href="/workbench?sample=dog#workspace"><img src="/studio/dog-after.webp" loading="lazy" width="256" height="256" alt=""><span><small>06 / FUR DETAIL</small>Dog in the grass</span><span aria-hidden="true">↗</span></a>
+        </div>
+        <figure class="proof-print" id="proof-print">
+          <div class="proof-image" id="proof-image">
+            <img id="proof-after" src="/studio/alpine-after.webp" loading="lazy" width="256" height="256" alt="Alpine railway after restoration">
+            <img id="proof-before" src="/studio/alpine-before.webp" loading="lazy" width="256" height="256" alt="Alpine railway with simulated damage">
+            <span class="proof-tag">DAMAGED</span><span class="proof-tag right-tag">RESTORED</span>
+            <span class="proof-divider" aria-hidden="true"><span>↔</span></span>
+            <input id="proof-range" type="range" min="0" max="100" value="46" aria-label="Reveal the damaged image">
+          </div>
+          <figcaption><div><strong id="proof-title">Alpine railway</strong><p id="proof-detail">Contrast returns in the waterfall and forest. Some fine scratches remain.</p><span id="proof-score">19.32 → 25.49 dB PSNR</span></div><a id="proof-link" href="/workbench?sample=alpine#workspace">Open in studio ↗</a></figcaption>
+        </figure>
+      </div>
+      <div class="research-link reveal-item">
+        <div><strong>Inside the experiment.</strong><p>See how the images were made and how the new model compares with the original.</p></div>
+        <a href="/workbench#benchmark">See the evaluation <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+  </main>
+  <footer><a class="wordmark" href="/">ChronoRestore<span class="mark-dot">.</span></a><span class="signature">Made with <span class="heart" aria-label="love">♥</span> by Amitoj</span></footer>
+</body>
+</html>

@@ -1,0 +1,3513 @@
+{
+  "count": 500,
+  "seed": 1701,
+  "size": 256,
+  "mean": {
+    "input_psnr": 18.540107638053502,
+    "input_ssim": 0.7304989736005664,
+    "restored_psnr": 26.37410020628263,
+    "restored_ssim": 0.8199090162664652
+  },
+  "images": [
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05500.jpg",
+      "input_psnr": 19.316193754664138,
+      "input_ssim": 0.7351558208465576,
+      "restored_psnr": 25.489446395318417,
+      "restored_ssim": 0.8275842666625977
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05501.jpg",
+      "input_psnr": 19.074307308786345,
+      "input_ssim": 0.7368936538696289,
+      "restored_psnr": 26.08064768405375,
+      "restored_ssim": 0.7989370226860046
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05502.jpg",
+      "input_psnr": 15.768084345168196,
+      "input_ssim": 0.7118194103240967,
+      "restored_psnr": 24.677150905540117,
+      "restored_ssim": 0.8587818741798401
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05503.jpg",
+      "input_psnr": 19.431538009571867,
+      "input_ssim": 0.698960542678833,
+      "restored_psnr": 25.96267617761509,
+      "restored_ssim": 0.8331835865974426
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05504.jpg",
+      "input_psnr": 17.909241432125718,
+      "input_ssim": 0.6988270282745361,
+      "restored_psnr": 25.362470086716684,
+      "restored_ssim": 0.8142707943916321
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05505.jpg",
+      "input_psnr": 18.13253660625768,
+      "input_ssim": 0.7292523384094238,
+      "restored_psnr": 21.443399075499574,
+      "restored_ssim": 0.7348735928535461
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05506.jpg",
+      "input_psnr": 18.482381754894487,
+      "input_ssim": 0.7346760630607605,
+      "restored_psnr": 24.36487234675907,
+      "restored_ssim": 0.8353090882301331
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05507.jpg",
+      "input_psnr": 20.222443822023838,
+      "input_ssim": 0.7861258387565613,
+      "restored_psnr": 30.04157656820744,
+      "restored_ssim": 0.8113982081413269
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05508.jpg",
+      "input_psnr": 16.821931744127667,
+      "input_ssim": 0.7511500716209412,
+      "restored_psnr": 30.93302164319637,
+      "restored_ssim": 0.9108023643493652
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05509.jpg",
+      "input_psnr": 18.93370633252006,
+      "input_ssim": 0.7309050559997559,
+      "restored_psnr": 27.979721774801007,
+      "restored_ssim": 0.7993949055671692
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05510.jpg",
+      "input_psnr": 25.985991994198994,
+      "input_ssim": 0.8449999690055847,
+      "restored_psnr": 28.245942886535698,
+      "restored_ssim": 0.8565582633018494
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05511.jpg",
+      "input_psnr": 17.51496461894228,
+      "input_ssim": 0.8154022693634033,
+      "restored_psnr": 31.770366161574437,
+      "restored_ssim": 0.890781581401825
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05512.jpg",
+      "input_psnr": 19.23478485652771,
+      "input_ssim": 0.779771625995636,
+      "restored_psnr": 27.725738657026852,
+      "restored_ssim": 0.8304962515830994
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05513.jpg",
+      "input_psnr": 19.457780180812094,
+      "input_ssim": 0.8794706463813782,
+      "restored_psnr": 29.549416126248037,
+      "restored_ssim": 0.9624381065368652
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05514.jpg",
+      "input_psnr": 18.42739254212259,
+      "input_ssim": 0.7791339755058289,
+      "restored_psnr": 28.181828332596417,
+      "restored_ssim": 0.8646611571311951
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05515.jpg",
+      "input_psnr": 19.295796829119286,
+      "input_ssim": 0.7161286473274231,
+      "restored_psnr": 24.860001605839187,
+      "restored_ssim": 0.8268240094184875
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05516.jpg",
+      "input_psnr": 22.35266620431295,
+      "input_ssim": 0.8780248165130615,
+      "restored_psnr": 22.014724423858404,
+      "restored_ssim": 0.88631671667099
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05517.jpg",
+      "input_psnr": 19.646574743053304,
+      "input_ssim": 0.7984015345573425,
+      "restored_psnr": 24.955562669716812,
+      "restored_ssim": 0.8170557022094727
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05518.jpg",
+      "input_psnr": 17.39114713239428,
+      "input_ssim": 0.7386689782142639,
+      "restored_psnr": 27.494871220022745,
+      "restored_ssim": 0.8107681274414062
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05519.jpg",
+      "input_psnr": 18.31619467240364,
+      "input_ssim": 0.8000938296318054,
+      "restored_psnr": 29.680408849347295,
+      "restored_ssim": 0.8751316070556641
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05520.jpg",
+      "input_psnr": 18.77165848179316,
+      "input_ssim": 0.7706913948059082,
+      "restored_psnr": 25.23773882806094,
+      "restored_ssim": 0.8426570892333984
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05521.jpg",
+      "input_psnr": 25.440511050763256,
+      "input_ssim": 0.899467408657074,
+      "restored_psnr": 30.358349721298985,
+      "restored_ssim": 0.8675391674041748
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05522.jpg",
+      "input_psnr": 18.168489353568166,
+      "input_ssim": 0.7893363833427429,
+      "restored_psnr": 21.9718828302806,
+      "restored_ssim": 0.8675177097320557
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05523.jpg",
+      "input_psnr": 16.366072269400433,
+      "input_ssim": 0.662739098072052,
+      "restored_psnr": 24.62794637822057,
+      "restored_ssim": 0.823491632938385
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05524.jpg",
+      "input_psnr": 17.34080107223776,
+      "input_ssim": 0.8036672472953796,
+      "restored_psnr": 25.42435487325626,
+      "restored_ssim": 0.9305932521820068
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05525.jpg",
+      "input_psnr": 15.480485786602431,
+      "input_ssim": 0.6196599006652832,
+      "restored_psnr": 26.838233164317046,
+      "restored_ssim": 0.8314349055290222
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05526.jpg",
+      "input_psnr": 18.488343806482867,
+      "input_ssim": 0.7673521041870117,
+      "restored_psnr": 25.322801855855616,
+      "restored_ssim": 0.8848695755004883
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05527.jpg",
+      "input_psnr": 21.6292290961836,
+      "input_ssim": 0.8319627642631531,
+      "restored_psnr": 29.109900920068217,
+      "restored_ssim": 0.8465660214424133
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05528.jpg",
+      "input_psnr": 20.408787081167038,
+      "input_ssim": 0.890808641910553,
+      "restored_psnr": 26.430413982607675,
+      "restored_ssim": 0.9297651648521423
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05529.jpg",
+      "input_psnr": 15.559942278197179,
+      "input_ssim": 0.6720159649848938,
+      "restored_psnr": 27.695139329829473,
+      "restored_ssim": 0.8611412048339844
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05530.jpg",
+      "input_psnr": 24.271711974141045,
+      "input_ssim": 0.9193863868713379,
+      "restored_psnr": 24.349583437375752,
+      "restored_ssim": 0.8992576599121094
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05531.jpg",
+      "input_psnr": 16.812237653432142,
+      "input_ssim": 0.8096594214439392,
+      "restored_psnr": 25.46623063527437,
+      "restored_ssim": 0.8983006477355957
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05532.jpg",
+      "input_psnr": 18.1352215569578,
+      "input_ssim": 0.6087170243263245,
+      "restored_psnr": 25.3695758802532,
+      "restored_ssim": 0.7234360575675964
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05533.jpg",
+      "input_psnr": 16.403572274727864,
+      "input_ssim": 0.7370845675468445,
+      "restored_psnr": 29.171744007179367,
+      "restored_ssim": 0.8504822850227356
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05534.jpg",
+      "input_psnr": 19.843302367890537,
+      "input_ssim": 0.7943625450134277,
+      "restored_psnr": 27.927278272428232,
+      "restored_ssim": 0.817783772945404
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05535.jpg",
+      "input_psnr": 16.599261969585083,
+      "input_ssim": 0.7070944309234619,
+      "restored_psnr": 25.982255540915602,
+      "restored_ssim": 0.7683202624320984
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05536.jpg",
+      "input_psnr": 14.778559491504533,
+      "input_ssim": 0.6464582681655884,
+      "restored_psnr": 19.29677796680169,
+      "restored_ssim": 0.7664904594421387
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05537.jpg",
+      "input_psnr": 18.385160635036492,
+      "input_ssim": 0.7465099692344666,
+      "restored_psnr": 25.150753929120924,
+      "restored_ssim": 0.8188202977180481
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05538.jpg",
+      "input_psnr": 17.391819572975383,
+      "input_ssim": 0.6307769417762756,
+      "restored_psnr": 26.343433369575067,
+      "restored_ssim": 0.7248676419258118
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05539.jpg",
+      "input_psnr": 21.53269321160046,
+      "input_ssim": 0.8059757351875305,
+      "restored_psnr": 25.60613478832334,
+      "restored_ssim": 0.753868818283081
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05540.jpg",
+      "input_psnr": 20.96687185192811,
+      "input_ssim": 0.8018286228179932,
+      "restored_psnr": 26.243527047547364,
+      "restored_ssim": 0.7866453528404236
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05541.jpg",
+      "input_psnr": 15.937215166675344,
+      "input_ssim": 0.7501242756843567,
+      "restored_psnr": 26.859614379059856,
+      "restored_ssim": 0.8647705912590027
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05542.jpg",
+      "input_psnr": 23.216037960869762,
+      "input_ssim": 0.8913894295692444,
+      "restored_psnr": 30.264590019912454,
+      "restored_ssim": 0.9155817627906799
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05543.jpg",
+      "input_psnr": 14.489164758563254,
+      "input_ssim": 0.7047316431999207,
+      "restored_psnr": 24.91038359445422,
+      "restored_ssim": 0.8184778690338135
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05544.jpg",
+      "input_psnr": 19.202187088271124,
+      "input_ssim": 0.6664084792137146,
+      "restored_psnr": 27.868034634151925,
+      "restored_ssim": 0.8205137252807617
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05545.jpg",
+      "input_psnr": 16.057870155727553,
+      "input_ssim": 0.7394464612007141,
+      "restored_psnr": 27.00002388737349,
+      "restored_ssim": 0.8688341975212097
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05546.jpg",
+      "input_psnr": 22.526830075342804,
+      "input_ssim": 0.7373583316802979,
+      "restored_psnr": 30.510157264039577,
+      "restored_ssim": 0.8619815707206726
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05547.jpg",
+      "input_psnr": 22.56156631833487,
+      "input_ssim": 0.8630760312080383,
+      "restored_psnr": 30.790503526798815,
+      "restored_ssim": 0.8683344721794128
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05548.jpg",
+      "input_psnr": 20.180672518671216,
+      "input_ssim": 0.7545571327209473,
+      "restored_psnr": 27.353684577629384,
+      "restored_ssim": 0.855829656124115
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05549.jpg",
+      "input_psnr": 17.893304622644997,
+      "input_ssim": 0.6422982215881348,
+      "restored_psnr": 26.781201067442574,
+      "restored_ssim": 0.8097624182701111
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05550.jpg",
+      "input_psnr": 25.134432070171076,
+      "input_ssim": 0.7684926390647888,
+      "restored_psnr": 28.421762830993078,
+      "restored_ssim": 0.8264678120613098
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05551.jpg",
+      "input_psnr": 14.818789516850185,
+      "input_ssim": 0.7675710320472717,
+      "restored_psnr": 28.298185096317727,
+      "restored_ssim": 0.8757399916648865
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05552.jpg",
+      "input_psnr": 19.260465941667015,
+      "input_ssim": 0.7922132611274719,
+      "restored_psnr": 24.963274970579327,
+      "restored_ssim": 0.9047122001647949
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05553.jpg",
+      "input_psnr": 16.296876757822215,
+      "input_ssim": 0.720466136932373,
+      "restored_psnr": 24.86345136036651,
+      "restored_ssim": 0.8166923522949219
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05554.jpg",
+      "input_psnr": 19.117192142296854,
+      "input_ssim": 0.7962601780891418,
+      "restored_psnr": 24.997403909282312,
+      "restored_ssim": 0.8749948143959045
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05555.jpg",
+      "input_psnr": 19.07597083073981,
+      "input_ssim": 0.7354534268379211,
+      "restored_psnr": 25.59433664946329,
+      "restored_ssim": 0.831044614315033
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05556.jpg",
+      "input_psnr": 18.25185584349358,
+      "input_ssim": 0.6862730383872986,
+      "restored_psnr": 24.45504308652733,
+      "restored_ssim": 0.8009853959083557
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05557.jpg",
+      "input_psnr": 20.564088443757452,
+      "input_ssim": 0.7321584224700928,
+      "restored_psnr": 27.380871099391374,
+      "restored_ssim": 0.7358344197273254
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05558.jpg",
+      "input_psnr": 19.728413665891445,
+      "input_ssim": 0.81966233253479,
+      "restored_psnr": 25.85788912449823,
+      "restored_ssim": 0.8592700362205505
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05559.jpg",
+      "input_psnr": 16.053919008306057,
+      "input_ssim": 0.7104910016059875,
+      "restored_psnr": 27.141287524671604,
+      "restored_ssim": 0.9351047873497009
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05560.jpg",
+      "input_psnr": 17.527365250005257,
+      "input_ssim": 0.7641761898994446,
+      "restored_psnr": 26.889365067058144,
+      "restored_ssim": 0.8707502484321594
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05561.jpg",
+      "input_psnr": 14.957306029425542,
+      "input_ssim": 0.5230724215507507,
+      "restored_psnr": 27.060061495844057,
+      "restored_ssim": 0.8004644513130188
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05562.jpg",
+      "input_psnr": 21.76761561166625,
+      "input_ssim": 0.8277128338813782,
+      "restored_psnr": 28.296140142532977,
+      "restored_ssim": 0.8581598401069641
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05563.jpg",
+      "input_psnr": 22.973355148004305,
+      "input_ssim": 0.8305068016052246,
+      "restored_psnr": 30.09663948431438,
+      "restored_ssim": 0.8966116905212402
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05564.jpg",
+      "input_psnr": 17.81686291805031,
+      "input_ssim": 0.7251715660095215,
+      "restored_psnr": 27.999452794944446,
+      "restored_ssim": 0.7880854606628418
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05565.jpg",
+      "input_psnr": 18.54895187449741,
+      "input_ssim": 0.724071741104126,
+      "restored_psnr": 26.020546883996587,
+      "restored_ssim": 0.8439286351203918
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05566.jpg",
+      "input_psnr": 19.058376858332593,
+      "input_ssim": 0.7659780383110046,
+      "restored_psnr": 24.955493395932198,
+      "restored_ssim": 0.845704972743988
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05567.jpg",
+      "input_psnr": 20.230612738543243,
+      "input_ssim": 0.8156027793884277,
+      "restored_psnr": 26.77555930381486,
+      "restored_ssim": 0.8410717844963074
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05568.jpg",
+      "input_psnr": 17.910646988686047,
+      "input_ssim": 0.7455978393554688,
+      "restored_psnr": 24.25540921758129,
+      "restored_ssim": 0.8609583377838135
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05569.jpg",
+      "input_psnr": 15.628739867558055,
+      "input_ssim": 0.7136669754981995,
+      "restored_psnr": 26.361886105394795,
+      "restored_ssim": 0.9028604030609131
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05570.jpg",
+      "input_psnr": 17.580859715640155,
+      "input_ssim": 0.667767345905304,
+      "restored_psnr": 25.219405821558325,
+      "restored_ssim": 0.7530093789100647
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05571.jpg",
+      "input_psnr": 15.13305076017872,
+      "input_ssim": 0.6223621964454651,
+      "restored_psnr": 26.484922959407275,
+      "restored_ssim": 0.8118447661399841
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05572.jpg",
+      "input_psnr": 17.718797550975612,
+      "input_ssim": 0.7643716931343079,
+      "restored_psnr": 28.127443171638035,
+      "restored_ssim": 0.7742502093315125
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05573.jpg",
+      "input_psnr": 16.082055291352372,
+      "input_ssim": 0.6021848320960999,
+      "restored_psnr": 25.080284434321356,
+      "restored_ssim": 0.8050735592842102
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05574.jpg",
+      "input_psnr": 19.196678396938275,
+      "input_ssim": 0.8563408255577087,
+      "restored_psnr": 28.098905157810655,
+      "restored_ssim": 0.8947709202766418
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05575.jpg",
+      "input_psnr": 21.612758346081776,
+      "input_ssim": 0.8461754322052002,
+      "restored_psnr": 26.33928210430664,
+      "restored_ssim": 0.879115879535675
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05576.jpg",
+      "input_psnr": 18.94740813833605,
+      "input_ssim": 0.8235783576965332,
+      "restored_psnr": 26.499677415156114,
+      "restored_ssim": 0.8785155415534973
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05577.jpg",
+      "input_psnr": 18.662911750843254,
+      "input_ssim": 0.8097756505012512,
+      "restored_psnr": 23.16186322974552,
+      "restored_ssim": 0.8660200238227844
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05578.jpg",
+      "input_psnr": 16.954559867990703,
+      "input_ssim": 0.6969943046569824,
+      "restored_psnr": 23.013770506645965,
+      "restored_ssim": 0.7903674244880676
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05579.jpg",
+      "input_psnr": 20.24137626315141,
+      "input_ssim": 0.8159449696540833,
+      "restored_psnr": 29.622924372432426,
+      "restored_ssim": 0.9032962918281555
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05580.jpg",
+      "input_psnr": 18.04401782055019,
+      "input_ssim": 0.7871703505516052,
+      "restored_psnr": 28.75109173656949,
+      "restored_ssim": 0.8553578853607178
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05581.jpg",
+      "input_psnr": 18.66138081356992,
+      "input_ssim": 0.7409668564796448,
+      "restored_psnr": 23.61709926009999,
+      "restored_ssim": 0.8259664177894592
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05582.jpg",
+      "input_psnr": 15.671169729071096,
+      "input_ssim": 0.5775739550590515,
+      "restored_psnr": 22.562166448743213,
+      "restored_ssim": 0.7377757430076599
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05583.jpg",
+      "input_psnr": 16.132839594446157,
+      "input_ssim": 0.6404076218605042,
+      "restored_psnr": 23.488323361606064,
+      "restored_ssim": 0.8130620121955872
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05584.jpg",
+      "input_psnr": 17.637303596918166,
+      "input_ssim": 0.7466927170753479,
+      "restored_psnr": 23.994264177754616,
+      "restored_ssim": 0.8605470061302185
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05585.jpg",
+      "input_psnr": 18.13795047942929,
+      "input_ssim": 0.8342040181159973,
+      "restored_psnr": 30.809648623718875,
+      "restored_ssim": 0.8914580345153809
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05586.jpg",
+      "input_psnr": 17.69899516325026,
+      "input_ssim": 0.7095414996147156,
+      "restored_psnr": 28.02046303217756,
+      "restored_ssim": 0.7824965119361877
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05587.jpg",
+      "input_psnr": 22.331013574893156,
+      "input_ssim": 0.7355446219444275,
+      "restored_psnr": 29.25453933325435,
+      "restored_ssim": 0.739950954914093
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05588.jpg",
+      "input_psnr": 16.09862253008117,
+      "input_ssim": 0.710797131061554,
+      "restored_psnr": 21.15679322906928,
+      "restored_ssim": 0.784856379032135
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05589.jpg",
+      "input_psnr": 18.612598481316095,
+      "input_ssim": 0.8601706624031067,
+      "restored_psnr": 29.08187203631097,
+      "restored_ssim": 0.9386290907859802
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05590.jpg",
+      "input_psnr": 15.453719179234453,
+      "input_ssim": 0.7231503129005432,
+      "restored_psnr": 28.29460934184847,
+      "restored_ssim": 0.8727185726165771
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05591.jpg",
+      "input_psnr": 19.993651773536094,
+      "input_ssim": 0.7789385914802551,
+      "restored_psnr": 25.272403964336903,
+      "restored_ssim": 0.7615675330162048
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05592.jpg",
+      "input_psnr": 16.31884430886325,
+      "input_ssim": 0.5945936441421509,
+      "restored_psnr": 26.057196627008707,
+      "restored_ssim": 0.7871555685997009
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05593.jpg",
+      "input_psnr": 23.514431369451792,
+      "input_ssim": 0.8018401265144348,
+      "restored_psnr": 28.19806624430983,
+      "restored_ssim": 0.8185713291168213
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05594.jpg",
+      "input_psnr": 22.10922324323476,
+      "input_ssim": 0.8664696216583252,
+      "restored_psnr": 27.38867570889175,
+      "restored_ssim": 0.8591945171356201
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05595.jpg",
+      "input_psnr": 18.100973534309958,
+      "input_ssim": 0.8870880603790283,
+      "restored_psnr": 27.088201378396477,
+      "restored_ssim": 0.9402671456336975
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05596.jpg",
+      "input_psnr": 20.50252972212426,
+      "input_ssim": 0.7819047570228577,
+      "restored_psnr": 23.61842557108863,
+      "restored_ssim": 0.8627504706382751
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05597.jpg",
+      "input_psnr": 18.468854884960795,
+      "input_ssim": 0.6636455059051514,
+      "restored_psnr": 25.867566709338124,
+      "restored_ssim": 0.809772789478302
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05598.jpg",
+      "input_psnr": 18.01717456035009,
+      "input_ssim": 0.6663582921028137,
+      "restored_psnr": 27.59047447894278,
+      "restored_ssim": 0.7510393261909485
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05599.jpg",
+      "input_psnr": 17.007565017019026,
+      "input_ssim": 0.7001175284385681,
+      "restored_psnr": 24.60411298448365,
+      "restored_ssim": 0.8120787739753723
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05600.jpg",
+      "input_psnr": 16.573127690470773,
+      "input_ssim": 0.7035093307495117,
+      "restored_psnr": 27.78342650245339,
+      "restored_ssim": 0.7563021183013916
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05601.jpg",
+      "input_psnr": 22.29621799560025,
+      "input_ssim": 0.8795325756072998,
+      "restored_psnr": 28.622682668726327,
+      "restored_ssim": 0.8976853489875793
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05602.jpg",
+      "input_psnr": 19.95070483700035,
+      "input_ssim": 0.692821741104126,
+      "restored_psnr": 29.304977060294384,
+      "restored_ssim": 0.7804112434387207
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05603.jpg",
+      "input_psnr": 18.719199318559284,
+      "input_ssim": 0.7159025073051453,
+      "restored_psnr": 24.091143411632665,
+      "restored_ssim": 0.7621065974235535
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05604.jpg",
+      "input_psnr": 18.473692314134688,
+      "input_ssim": 0.7483672499656677,
+      "restored_psnr": 26.276840355434512,
+      "restored_ssim": 0.8687998652458191
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05605.jpg",
+      "input_psnr": 17.689965585791853,
+      "input_ssim": 0.6655650734901428,
+      "restored_psnr": 24.977875506265068,
+      "restored_ssim": 0.7242960929870605
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05606.jpg",
+      "input_psnr": 18.168405192133385,
+      "input_ssim": 0.6548690795898438,
+      "restored_psnr": 24.29945069598364,
+      "restored_ssim": 0.7581722736358643
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05607.jpg",
+      "input_psnr": 14.307036386903198,
+      "input_ssim": 0.47047463059425354,
+      "restored_psnr": 24.286719271695063,
+      "restored_ssim": 0.7143848538398743
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05608.jpg",
+      "input_psnr": 17.57357380750952,
+      "input_ssim": 0.6978257298469543,
+      "restored_psnr": 24.284122499637796,
+      "restored_ssim": 0.75416499376297
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05609.jpg",
+      "input_psnr": 17.888613646515886,
+      "input_ssim": 0.7419736981391907,
+      "restored_psnr": 25.607605864912678,
+      "restored_ssim": 0.8416118025779724
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05610.jpg",
+      "input_psnr": 20.10989733100343,
+      "input_ssim": 0.7735950350761414,
+      "restored_psnr": 28.33018010316326,
+      "restored_ssim": 0.8857755661010742
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05611.jpg",
+      "input_psnr": 17.07458921657541,
+      "input_ssim": 0.6610758900642395,
+      "restored_psnr": 26.074938458395764,
+      "restored_ssim": 0.7553191184997559
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05612.jpg",
+      "input_psnr": 18.77361512794853,
+      "input_ssim": 0.6826753616333008,
+      "restored_psnr": 26.000114261858997,
+      "restored_ssim": 0.7928869724273682
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05613.jpg",
+      "input_psnr": 19.021059119829108,
+      "input_ssim": 0.8562000393867493,
+      "restored_psnr": 26.94547352848837,
+      "restored_ssim": 0.9224085211753845
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05614.jpg",
+      "input_psnr": 18.331947705866096,
+      "input_ssim": 0.7133833765983582,
+      "restored_psnr": 26.073103658109986,
+      "restored_ssim": 0.8792198300361633
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05615.jpg",
+      "input_psnr": 13.893546163961206,
+      "input_ssim": 0.6465886235237122,
+      "restored_psnr": 27.06988274341817,
+      "restored_ssim": 0.851567804813385
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05616.jpg",
+      "input_psnr": 15.36909948003471,
+      "input_ssim": 0.30988356471061707,
+      "restored_psnr": 25.85011210958488,
+      "restored_ssim": 0.5345149636268616
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05617.jpg",
+      "input_psnr": 13.892385569738027,
+      "input_ssim": 0.4890406131744385,
+      "restored_psnr": 22.244933297439307,
+      "restored_ssim": 0.7624536156654358
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05618.jpg",
+      "input_psnr": 17.598634598887372,
+      "input_ssim": 0.6266732811927795,
+      "restored_psnr": 20.477797601220296,
+      "restored_ssim": 0.7036159634590149
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05619.jpg",
+      "input_psnr": 16.616199052601658,
+      "input_ssim": 0.63294917345047,
+      "restored_psnr": 23.667471261280294,
+      "restored_ssim": 0.7880983352661133
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05620.jpg",
+      "input_psnr": 16.463050792558743,
+      "input_ssim": 0.612331211566925,
+      "restored_psnr": 26.173649489685758,
+      "restored_ssim": 0.8224959373474121
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05621.jpg",
+      "input_psnr": 22.95546641812392,
+      "input_ssim": 0.8274723887443542,
+      "restored_psnr": 25.04589360159196,
+      "restored_ssim": 0.7170426249504089
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05622.jpg",
+      "input_psnr": 20.492863195013026,
+      "input_ssim": 0.7024391293525696,
+      "restored_psnr": 27.601621240719155,
+      "restored_ssim": 0.853161633014679
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05623.jpg",
+      "input_psnr": 18.447104310695032,
+      "input_ssim": 0.7213613986968994,
+      "restored_psnr": 23.91737016025437,
+      "restored_ssim": 0.7803881764411926
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05624.jpg",
+      "input_psnr": 18.150181108226995,
+      "input_ssim": 0.7979447841644287,
+      "restored_psnr": 28.92398563562109,
+      "restored_ssim": 0.8529231548309326
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05625.jpg",
+      "input_psnr": 21.139798154284225,
+      "input_ssim": 0.8151445984840393,
+      "restored_psnr": 31.197974724178184,
+      "restored_ssim": 0.8428992629051208
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05626.jpg",
+      "input_psnr": 17.118966758660456,
+      "input_ssim": 0.6276841163635254,
+      "restored_psnr": 25.674745824927292,
+      "restored_ssim": 0.8243846893310547
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05627.jpg",
+      "input_psnr": 19.05945077391784,
+      "input_ssim": 0.7853994965553284,
+      "restored_psnr": 28.80590350985973,
+      "restored_ssim": 0.8730772137641907
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05628.jpg",
+      "input_psnr": 16.378458790091972,
+      "input_ssim": 0.7484516501426697,
+      "restored_psnr": 22.39515407757566,
+      "restored_ssim": 0.831653892993927
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05629.jpg",
+      "input_psnr": 16.698487823884612,
+      "input_ssim": 0.7403555512428284,
+      "restored_psnr": 30.788255693940748,
+      "restored_ssim": 0.9489245414733887
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05630.jpg",
+      "input_psnr": 17.44142201051972,
+      "input_ssim": 0.7820075154304504,
+      "restored_psnr": 28.321096071434688,
+      "restored_ssim": 0.9352193474769592
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05631.jpg",
+      "input_psnr": 16.46613566507202,
+      "input_ssim": 0.7118678092956543,
+      "restored_psnr": 26.488302257175725,
+      "restored_ssim": 0.8462274074554443
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05632.jpg",
+      "input_psnr": 20.34296076786548,
+      "input_ssim": 0.7809268832206726,
+      "restored_psnr": 27.080733227290438,
+      "restored_ssim": 0.8152922987937927
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05633.jpg",
+      "input_psnr": 16.620441933718986,
+      "input_ssim": 0.7364664077758789,
+      "restored_psnr": 24.383973379252506,
+      "restored_ssim": 0.8637974858283997
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05634.jpg",
+      "input_psnr": 19.514002070012126,
+      "input_ssim": 0.7972157597541809,
+      "restored_psnr": 26.370878645761955,
+      "restored_ssim": 0.7945753931999207
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05635.jpg",
+      "input_psnr": 13.958940304332755,
+      "input_ssim": 0.5028048157691956,
+      "restored_psnr": 24.62558810072852,
+      "restored_ssim": 0.755594789981842
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05636.jpg",
+      "input_psnr": 19.680181794085,
+      "input_ssim": 0.7566924691200256,
+      "restored_psnr": 24.123571531623085,
+      "restored_ssim": 0.8005063533782959
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05637.jpg",
+      "input_psnr": 20.034239877720196,
+      "input_ssim": 0.8190919756889343,
+      "restored_psnr": 26.671606409885786,
+      "restored_ssim": 0.8699854016304016
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05638.jpg",
+      "input_psnr": 16.467428982684304,
+      "input_ssim": 0.6222679615020752,
+      "restored_psnr": 24.421469557513493,
+      "restored_ssim": 0.7160319685935974
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05639.jpg",
+      "input_psnr": 19.68191356097867,
+      "input_ssim": 0.7148137092590332,
+      "restored_psnr": 27.37488856715816,
+      "restored_ssim": 0.7173915505409241
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05640.jpg",
+      "input_psnr": 19.26392983301292,
+      "input_ssim": 0.7316116690635681,
+      "restored_psnr": 24.20679973473706,
+      "restored_ssim": 0.8914719223976135
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05641.jpg",
+      "input_psnr": 16.303607163266538,
+      "input_ssim": 0.6249914765357971,
+      "restored_psnr": 24.792771103477484,
+      "restored_ssim": 0.808005154132843
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05642.jpg",
+      "input_psnr": 18.54440355388638,
+      "input_ssim": 0.7803905010223389,
+      "restored_psnr": 25.80986891623674,
+      "restored_ssim": 0.8648555874824524
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05643.jpg",
+      "input_psnr": 17.372215276472584,
+      "input_ssim": 0.6478193402290344,
+      "restored_psnr": 25.57578802350927,
+      "restored_ssim": 0.7701999545097351
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05644.jpg",
+      "input_psnr": 16.53553721474831,
+      "input_ssim": 0.6674570441246033,
+      "restored_psnr": 26.346014431495792,
+      "restored_ssim": 0.788968563079834
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05645.jpg",
+      "input_psnr": 20.484735824647604,
+      "input_ssim": 0.7986714243888855,
+      "restored_psnr": 27.233247086427564,
+      "restored_ssim": 0.8267795443534851
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05646.jpg",
+      "input_psnr": 14.323463358728123,
+      "input_ssim": 0.6002626419067383,
+      "restored_psnr": 21.87584542555284,
+      "restored_ssim": 0.8062569499015808
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05647.jpg",
+      "input_psnr": 21.055667229174645,
+      "input_ssim": 0.701371967792511,
+      "restored_psnr": 29.044382545566982,
+      "restored_ssim": 0.6997709274291992
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05648.jpg",
+      "input_psnr": 17.06236959124746,
+      "input_ssim": 0.89703369140625,
+      "restored_psnr": 27.082665708962317,
+      "restored_ssim": 0.9524827003479004
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05649.jpg",
+      "input_psnr": 14.120645705339928,
+      "input_ssim": 0.48845553398132324,
+      "restored_psnr": 23.82493506721655,
+      "restored_ssim": 0.6903589367866516
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05650.jpg",
+      "input_psnr": 16.510870612550242,
+      "input_ssim": 0.639252245426178,
+      "restored_psnr": 23.84218808071367,
+      "restored_ssim": 0.7542502284049988
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05651.jpg",
+      "input_psnr": 16.63454285242766,
+      "input_ssim": 0.663147509098053,
+      "restored_psnr": 25.953624579265167,
+      "restored_ssim": 0.7802403569221497
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05652.jpg",
+      "input_psnr": 23.201001058474375,
+      "input_ssim": 0.8304962515830994,
+      "restored_psnr": 29.477866233374705,
+      "restored_ssim": 0.8681867718696594
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05653.jpg",
+      "input_psnr": 17.65481666048997,
+      "input_ssim": 0.7333404421806335,
+      "restored_psnr": 30.035856409377484,
+      "restored_ssim": 0.8888745903968811
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05654.jpg",
+      "input_psnr": 17.401991809828797,
+      "input_ssim": 0.7209660410881042,
+      "restored_psnr": 28.29584252024962,
+      "restored_ssim": 0.8850377202033997
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05655.jpg",
+      "input_psnr": 21.737005879493378,
+      "input_ssim": 0.8137300610542297,
+      "restored_psnr": 21.984087380314406,
+      "restored_ssim": 0.7786800265312195
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05656.jpg",
+      "input_psnr": 21.224179591949223,
+      "input_ssim": 0.8456714153289795,
+      "restored_psnr": 27.929316584992925,
+      "restored_ssim": 0.8654601573944092
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05657.jpg",
+      "input_psnr": 18.406780303870413,
+      "input_ssim": 0.8295717239379883,
+      "restored_psnr": 25.53729243551505,
+      "restored_ssim": 0.9245125651359558
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05658.jpg",
+      "input_psnr": 17.73195053310398,
+      "input_ssim": 0.7710747122764587,
+      "restored_psnr": 28.067300905913257,
+      "restored_ssim": 0.8608155250549316
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05659.jpg",
+      "input_psnr": 18.733212684397703,
+      "input_ssim": 0.7850089073181152,
+      "restored_psnr": 25.399499990303323,
+      "restored_ssim": 0.8559656143188477
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05660.jpg",
+      "input_psnr": 20.89674317169855,
+      "input_ssim": 0.7955186367034912,
+      "restored_psnr": 27.985959296304475,
+      "restored_ssim": 0.8349709510803223
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05661.jpg",
+      "input_psnr": 22.9907654972148,
+      "input_ssim": 0.8834449648857117,
+      "restored_psnr": 30.64180297500227,
+      "restored_ssim": 0.894616425037384
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05662.jpg",
+      "input_psnr": 14.627419466534974,
+      "input_ssim": 0.26931628584861755,
+      "restored_psnr": 23.953009710191047,
+      "restored_ssim": 0.38009217381477356
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05663.jpg",
+      "input_psnr": 15.777625810354687,
+      "input_ssim": 0.8139496445655823,
+      "restored_psnr": 29.428284099346268,
+      "restored_ssim": 0.9155189394950867
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05664.jpg",
+      "input_psnr": 26.689108828324564,
+      "input_ssim": 0.8775981068611145,
+      "restored_psnr": 22.448136098512617,
+      "restored_ssim": 0.7961462140083313
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05665.jpg",
+      "input_psnr": 18.34738768563495,
+      "input_ssim": 0.3710760176181793,
+      "restored_psnr": 29.721307612160686,
+      "restored_ssim": 0.5791592001914978
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05666.jpg",
+      "input_psnr": 15.622141869087587,
+      "input_ssim": 0.7804577350616455,
+      "restored_psnr": 26.57709888307123,
+      "restored_ssim": 0.8013491630554199
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05667.jpg",
+      "input_psnr": 16.70672602513729,
+      "input_ssim": 0.8484222888946533,
+      "restored_psnr": 31.939026807713695,
+      "restored_ssim": 0.9454045295715332
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05668.jpg",
+      "input_psnr": 20.473714359492806,
+      "input_ssim": 0.8066851496696472,
+      "restored_psnr": 29.99397581987143,
+      "restored_ssim": 0.8626087307929993
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05669.jpg",
+      "input_psnr": 20.028206209462667,
+      "input_ssim": 0.7098318934440613,
+      "restored_psnr": 26.137127151715678,
+      "restored_ssim": 0.7607621550559998
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05670.jpg",
+      "input_psnr": 16.99828772806417,
+      "input_ssim": 0.8199232220649719,
+      "restored_psnr": 30.811037660442537,
+      "restored_ssim": 0.9465519785881042
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05671.jpg",
+      "input_psnr": 19.51270018347837,
+      "input_ssim": 0.7299111485481262,
+      "restored_psnr": 27.196093283119342,
+      "restored_ssim": 0.7641205787658691
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05672.jpg",
+      "input_psnr": 18.527085496522165,
+      "input_ssim": 0.8239756226539612,
+      "restored_psnr": 30.64923787237932,
+      "restored_ssim": 0.9094555377960205
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05673.jpg",
+      "input_psnr": 16.7664355560185,
+      "input_ssim": 0.5286092162132263,
+      "restored_psnr": 23.408496782167102,
+      "restored_ssim": 0.711681604385376
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05674.jpg",
+      "input_psnr": 16.7933635594516,
+      "input_ssim": 0.8099441528320312,
+      "restored_psnr": 27.870829516640466,
+      "restored_ssim": 0.9032838940620422
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05675.jpg",
+      "input_psnr": 19.985993199446106,
+      "input_ssim": 0.771714448928833,
+      "restored_psnr": 30.428469554132256,
+      "restored_ssim": 0.9177758693695068
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05676.jpg",
+      "input_psnr": 14.361760548145527,
+      "input_ssim": 0.5825549960136414,
+      "restored_psnr": 24.334824440290465,
+      "restored_ssim": 0.8258404731750488
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05677.jpg",
+      "input_psnr": 20.249397132328248,
+      "input_ssim": 0.7930114269256592,
+      "restored_psnr": 29.13463922702396,
+      "restored_ssim": 0.8376529812812805
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05678.jpg",
+      "input_psnr": 20.95376349808124,
+      "input_ssim": 0.8181967735290527,
+      "restored_psnr": 27.69656905322637,
+      "restored_ssim": 0.8745068907737732
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05679.jpg",
+      "input_psnr": 22.76663161016927,
+      "input_ssim": 0.693342924118042,
+      "restored_psnr": 29.791686312594074,
+      "restored_ssim": 0.6496374011039734
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05680.jpg",
+      "input_psnr": 15.596464551467031,
+      "input_ssim": 0.586383044719696,
+      "restored_psnr": 22.557810841365704,
+      "restored_ssim": 0.6323500275611877
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05681.jpg",
+      "input_psnr": 14.133094303723004,
+      "input_ssim": 0.5709608197212219,
+      "restored_psnr": 26.096016247296557,
+      "restored_ssim": 0.8684446811676025
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05682.jpg",
+      "input_psnr": 17.890295689344608,
+      "input_ssim": 0.6262637972831726,
+      "restored_psnr": 25.42499459522614,
+      "restored_ssim": 0.7806384563446045
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05683.jpg",
+      "input_psnr": 18.73095002762779,
+      "input_ssim": 0.7436426281929016,
+      "restored_psnr": 29.52078707262491,
+      "restored_ssim": 0.8515651822090149
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05684.jpg",
+      "input_psnr": 20.10701177454841,
+      "input_ssim": 0.720386266708374,
+      "restored_psnr": 26.064112732338035,
+      "restored_ssim": 0.8156329989433289
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05685.jpg",
+      "input_psnr": 16.29975410807757,
+      "input_ssim": 0.5981376767158508,
+      "restored_psnr": 26.264028737093376,
+      "restored_ssim": 0.7566673755645752
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05686.jpg",
+      "input_psnr": 16.39101337800328,
+      "input_ssim": 0.8599233627319336,
+      "restored_psnr": 27.792336196355244,
+      "restored_ssim": 0.9179210066795349
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05687.jpg",
+      "input_psnr": 17.321217875173367,
+      "input_ssim": 0.7520902156829834,
+      "restored_psnr": 25.39839966721772,
+      "restored_ssim": 0.8956906199455261
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05688.jpg",
+      "input_psnr": 16.6422733204002,
+      "input_ssim": 0.7399907112121582,
+      "restored_psnr": 27.578033549938993,
+      "restored_ssim": 0.8669137954711914
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05689.jpg",
+      "input_psnr": 15.392437543948237,
+      "input_ssim": 0.5566094517707825,
+      "restored_psnr": 24.444372043645103,
+      "restored_ssim": 0.6740161776542664
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05690.jpg",
+      "input_psnr": 14.689847828799362,
+      "input_ssim": 0.6549882888793945,
+      "restored_psnr": 22.456174419415575,
+      "restored_ssim": 0.787666380405426
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05691.jpg",
+      "input_psnr": 21.50550250773062,
+      "input_ssim": 0.8281920552253723,
+      "restored_psnr": 28.339796942665757,
+      "restored_ssim": 0.8634006977081299
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05692.jpg",
+      "input_psnr": 15.889789246239106,
+      "input_ssim": 0.7729559540748596,
+      "restored_psnr": 28.676482639835044,
+      "restored_ssim": 0.9087268710136414
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05693.jpg",
+      "input_psnr": 19.93695696590641,
+      "input_ssim": 0.7294667363166809,
+      "restored_psnr": 28.57764664396891,
+      "restored_ssim": 0.8511192202568054
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05694.jpg",
+      "input_psnr": 20.0008858637962,
+      "input_ssim": 0.8573206067085266,
+      "restored_psnr": 25.603945972185812,
+      "restored_ssim": 0.8624759316444397
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05695.jpg",
+      "input_psnr": 22.74250627578276,
+      "input_ssim": 0.8611685633659363,
+      "restored_psnr": 28.929308950562724,
+      "restored_ssim": 0.832533061504364
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05696.jpg",
+      "input_psnr": 22.73630417866886,
+      "input_ssim": 0.867893397808075,
+      "restored_psnr": 24.16195538732836,
+      "restored_ssim": 0.8502818942070007
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05697.jpg",
+      "input_psnr": 19.591838514002646,
+      "input_ssim": 0.7577192783355713,
+      "restored_psnr": 26.915551328607144,
+      "restored_ssim": 0.7390172481536865
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05698.jpg",
+      "input_psnr": 17.61368437471881,
+      "input_ssim": 0.6789071559906006,
+      "restored_psnr": 24.983837624275864,
+      "restored_ssim": 0.8240609765052795
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05699.jpg",
+      "input_psnr": 12.758507528175532,
+      "input_ssim": 0.6244033575057983,
+      "restored_psnr": 27.774670176220905,
+      "restored_ssim": 0.8323557376861572
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05700.jpg",
+      "input_psnr": 15.846491697715821,
+      "input_ssim": 0.6988726258277893,
+      "restored_psnr": 23.46776909641108,
+      "restored_ssim": 0.8021354675292969
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05701.jpg",
+      "input_psnr": 15.648179555210636,
+      "input_ssim": 0.6485645174980164,
+      "restored_psnr": 25.849055607516036,
+      "restored_ssim": 0.8011868000030518
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05702.jpg",
+      "input_psnr": 21.018973255283093,
+      "input_ssim": 0.800546407699585,
+      "restored_psnr": 27.98126464564328,
+      "restored_ssim": 0.8684239387512207
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05703.jpg",
+      "input_psnr": 21.438501977854738,
+      "input_ssim": 0.733353316783905,
+      "restored_psnr": 29.24755993649253,
+      "restored_ssim": 0.825408935546875
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05704.jpg",
+      "input_psnr": 14.956697483400738,
+      "input_ssim": 0.6560291647911072,
+      "restored_psnr": 21.74773980453815,
+      "restored_ssim": 0.8311195969581604
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05705.jpg",
+      "input_psnr": 15.983697599971212,
+      "input_ssim": 0.6619682908058167,
+      "restored_psnr": 23.271423076206375,
+      "restored_ssim": 0.8078374862670898
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05706.jpg",
+      "input_psnr": 19.990346547925924,
+      "input_ssim": 0.8018395304679871,
+      "restored_psnr": 27.752726380734302,
+      "restored_ssim": 0.7801310420036316
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05707.jpg",
+      "input_psnr": 13.627822634541849,
+      "input_ssim": 0.6424434781074524,
+      "restored_psnr": 27.10786916967634,
+      "restored_ssim": 0.8166281580924988
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05708.jpg",
+      "input_psnr": 19.322285014832218,
+      "input_ssim": 0.9005349278450012,
+      "restored_psnr": 27.214131671178027,
+      "restored_ssim": 0.9559114575386047
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05709.jpg",
+      "input_psnr": 13.875867128917703,
+      "input_ssim": 0.5883696675300598,
+      "restored_psnr": 22.278745396928468,
+      "restored_ssim": 0.6981326937675476
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05710.jpg",
+      "input_psnr": 20.05507901768908,
+      "input_ssim": 0.7845780253410339,
+      "restored_psnr": 26.989291327957574,
+      "restored_ssim": 0.7990634441375732
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05711.jpg",
+      "input_psnr": 14.445647838369645,
+      "input_ssim": 0.7276968359947205,
+      "restored_psnr": 23.97954117626957,
+      "restored_ssim": 0.8229129314422607
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05712.jpg",
+      "input_psnr": 17.945500918641173,
+      "input_ssim": 0.8067290186882019,
+      "restored_psnr": 31.773159058907954,
+      "restored_ssim": 0.9409098625183105
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05713.jpg",
+      "input_psnr": 18.47646061624488,
+      "input_ssim": 0.7410366535186768,
+      "restored_psnr": 25.363717915781564,
+      "restored_ssim": 0.8529525399208069
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05714.jpg",
+      "input_psnr": 19.213459845304776,
+      "input_ssim": 0.8350022435188293,
+      "restored_psnr": 29.223368164227217,
+      "restored_ssim": 0.8905037045478821
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05715.jpg",
+      "input_psnr": 16.292246075805167,
+      "input_ssim": 0.628446638584137,
+      "restored_psnr": 23.173718098899702,
+      "restored_ssim": 0.7166709899902344
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05716.jpg",
+      "input_psnr": 12.919910821036588,
+      "input_ssim": 0.7001807689666748,
+      "restored_psnr": 27.037567342120678,
+      "restored_ssim": 0.8518757224082947
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05717.jpg",
+      "input_psnr": 17.69456915337952,
+      "input_ssim": 0.7941741943359375,
+      "restored_psnr": 24.784485513739156,
+      "restored_ssim": 0.9084344506263733
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05718.jpg",
+      "input_psnr": 12.947592004145543,
+      "input_ssim": 0.37852251529693604,
+      "restored_psnr": 22.18133765734315,
+      "restored_ssim": 0.5173071622848511
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05719.jpg",
+      "input_psnr": 18.101291964396232,
+      "input_ssim": 0.8705278038978577,
+      "restored_psnr": 29.074094165776327,
+      "restored_ssim": 0.9302375912666321
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05720.jpg",
+      "input_psnr": 19.417848184713346,
+      "input_ssim": 0.667731761932373,
+      "restored_psnr": 26.46885593578542,
+      "restored_ssim": 0.8613349795341492
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05721.jpg",
+      "input_psnr": 19.033802488564433,
+      "input_ssim": 0.7451964020729065,
+      "restored_psnr": 27.701550857554572,
+      "restored_ssim": 0.6965305209159851
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05722.jpg",
+      "input_psnr": 19.270747310349027,
+      "input_ssim": 0.7970826029777527,
+      "restored_psnr": 29.283267601693723,
+      "restored_ssim": 0.9430931210517883
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05723.jpg",
+      "input_psnr": 19.816286408347967,
+      "input_ssim": 0.823652982711792,
+      "restored_psnr": 26.41555408507564,
+      "restored_ssim": 0.9296936392784119
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05724.jpg",
+      "input_psnr": 15.719801021329172,
+      "input_ssim": 0.8371090292930603,
+      "restored_psnr": 25.792982527329976,
+      "restored_ssim": 0.9110593199729919
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05725.jpg",
+      "input_psnr": 19.706105237165897,
+      "input_ssim": 0.77347332239151,
+      "restored_psnr": 30.449817894115775,
+      "restored_ssim": 0.8691605925559998
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05726.jpg",
+      "input_psnr": 17.421336886076404,
+      "input_ssim": 0.7757675051689148,
+      "restored_psnr": 26.802257713970885,
+      "restored_ssim": 0.8721560835838318
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05727.jpg",
+      "input_psnr": 20.28076807903332,
+      "input_ssim": 0.7377150654792786,
+      "restored_psnr": 26.845509274083724,
+      "restored_ssim": 0.8077909350395203
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05728.jpg",
+      "input_psnr": 17.241422801240223,
+      "input_ssim": 0.7348307967185974,
+      "restored_psnr": 23.205742683617334,
+      "restored_ssim": 0.9054925441741943
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05729.jpg",
+      "input_psnr": 20.08370225810703,
+      "input_ssim": 0.7443521618843079,
+      "restored_psnr": 28.962646575021758,
+      "restored_ssim": 0.8462778925895691
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05730.jpg",
+      "input_psnr": 19.901021493881952,
+      "input_ssim": 0.8065810203552246,
+      "restored_psnr": 23.339161865774614,
+      "restored_ssim": 0.8428505063056946
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05731.jpg",
+      "input_psnr": 20.506975309510736,
+      "input_ssim": 0.791788637638092,
+      "restored_psnr": 29.34521223455754,
+      "restored_ssim": 0.8190557360649109
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05732.jpg",
+      "input_psnr": 16.92151290709524,
+      "input_ssim": 0.48265600204467773,
+      "restored_psnr": 28.143190285272187,
+      "restored_ssim": 0.7640098929405212
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05733.jpg",
+      "input_psnr": 16.996924452067212,
+      "input_ssim": 0.7230995297431946,
+      "restored_psnr": 24.92599195081839,
+      "restored_ssim": 0.8285316824913025
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05734.jpg",
+      "input_psnr": 18.897135686886845,
+      "input_ssim": 0.8406078219413757,
+      "restored_psnr": 24.211084248708296,
+      "restored_ssim": 0.9270134568214417
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05735.jpg",
+      "input_psnr": 19.384204635059273,
+      "input_ssim": 0.7650526165962219,
+      "restored_psnr": 24.52683656312262,
+      "restored_ssim": 0.8153719902038574
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05736.jpg",
+      "input_psnr": 15.644294771946024,
+      "input_ssim": 0.658061683177948,
+      "restored_psnr": 22.313077219014957,
+      "restored_ssim": 0.8605316281318665
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05737.jpg",
+      "input_psnr": 18.198237917150276,
+      "input_ssim": 0.7242642045021057,
+      "restored_psnr": 25.07733131005507,
+      "restored_ssim": 0.7902588844299316
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05738.jpg",
+      "input_psnr": 16.214671123107408,
+      "input_ssim": 0.630153477191925,
+      "restored_psnr": 24.5577338274379,
+      "restored_ssim": 0.8189139366149902
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05739.jpg",
+      "input_psnr": 20.54043425962577,
+      "input_ssim": 0.8145895004272461,
+      "restored_psnr": 28.00928192755603,
+      "restored_ssim": 0.9389898777008057
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05740.jpg",
+      "input_psnr": 20.57523928112502,
+      "input_ssim": 0.7978411316871643,
+      "restored_psnr": 25.56682020270284,
+      "restored_ssim": 0.8440535068511963
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05741.jpg",
+      "input_psnr": 18.046175381706334,
+      "input_ssim": 0.6997246742248535,
+      "restored_psnr": 24.087762818691516,
+      "restored_ssim": 0.7208436131477356
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05742.jpg",
+      "input_psnr": 21.11235877360405,
+      "input_ssim": 0.8212809562683105,
+      "restored_psnr": 29.968966139180413,
+      "restored_ssim": 0.9218989014625549
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05743.jpg",
+      "input_psnr": 16.068782666104514,
+      "input_ssim": 0.7304899096488953,
+      "restored_psnr": 26.19139667002444,
+      "restored_ssim": 0.8206434845924377
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05744.jpg",
+      "input_psnr": 21.562586904917758,
+      "input_ssim": 0.8289976119995117,
+      "restored_psnr": 28.21860675353108,
+      "restored_ssim": 0.8399788737297058
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05745.jpg",
+      "input_psnr": 18.313262482636247,
+      "input_ssim": 0.6321361064910889,
+      "restored_psnr": 31.43042921317841,
+      "restored_ssim": 0.910184919834137
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05746.jpg",
+      "input_psnr": 17.20332239043998,
+      "input_ssim": 0.5790184140205383,
+      "restored_psnr": 23.492209368625453,
+      "restored_ssim": 0.7664391398429871
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05747.jpg",
+      "input_psnr": 20.867286486138703,
+      "input_ssim": 0.8071260452270508,
+      "restored_psnr": 29.14104206157375,
+      "restored_ssim": 0.8290966153144836
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05748.jpg",
+      "input_psnr": 20.173660501225434,
+      "input_ssim": 0.8195820450782776,
+      "restored_psnr": 26.379331662633163,
+      "restored_ssim": 0.8545215725898743
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05749.jpg",
+      "input_psnr": 15.982097263238506,
+      "input_ssim": 0.6235356330871582,
+      "restored_psnr": 25.151425947201716,
+      "restored_ssim": 0.8188471794128418
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05750.jpg",
+      "input_psnr": 20.099221956398758,
+      "input_ssim": 0.7997138500213623,
+      "restored_psnr": 28.338087055475683,
+      "restored_ssim": 0.839867353439331
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05751.jpg",
+      "input_psnr": 19.964344686790977,
+      "input_ssim": 0.8297112584114075,
+      "restored_psnr": 27.381329542724224,
+      "restored_ssim": 0.8181303143501282
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05752.jpg",
+      "input_psnr": 16.738051224084668,
+      "input_ssim": 0.17470085620880127,
+      "restored_psnr": 24.74632607945868,
+      "restored_ssim": 0.37553369998931885
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05753.jpg",
+      "input_psnr": 19.100311703317182,
+      "input_ssim": 0.8085095882415771,
+      "restored_psnr": 29.885900852144566,
+      "restored_ssim": 0.9090349078178406
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05754.jpg",
+      "input_psnr": 21.904460660862973,
+      "input_ssim": 0.7399520874023438,
+      "restored_psnr": 24.478631489021833,
+      "restored_ssim": 0.7157195210456848
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05755.jpg",
+      "input_psnr": 18.088261483641265,
+      "input_ssim": 0.711219310760498,
+      "restored_psnr": 30.025458213775195,
+      "restored_ssim": 0.8510467410087585
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05756.jpg",
+      "input_psnr": 19.294640138140718,
+      "input_ssim": 0.767340362071991,
+      "restored_psnr": 27.307233815849024,
+      "restored_ssim": 0.8547255992889404
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05757.jpg",
+      "input_psnr": 17.200390299337084,
+      "input_ssim": 0.6545820832252502,
+      "restored_psnr": 25.351242482328825,
+      "restored_ssim": 0.7978346943855286
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05758.jpg",
+      "input_psnr": 19.770926639339734,
+      "input_ssim": 0.7690461277961731,
+      "restored_psnr": 27.30177207179803,
+      "restored_ssim": 0.8226354718208313
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05759.jpg",
+      "input_psnr": 15.92382773545167,
+      "input_ssim": 0.7033368945121765,
+      "restored_psnr": 27.378907155665097,
+      "restored_ssim": 0.8282042145729065
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05760.jpg",
+      "input_psnr": 20.03470898251029,
+      "input_ssim": 0.7021384239196777,
+      "restored_psnr": 23.613126985278036,
+      "restored_ssim": 0.8493534922599792
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05761.jpg",
+      "input_psnr": 21.444914210954078,
+      "input_ssim": 0.7534833550453186,
+      "restored_psnr": 27.274457670409397,
+      "restored_ssim": 0.7548987865447998
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05762.jpg",
+      "input_psnr": 19.44299965360178,
+      "input_ssim": 0.765450656414032,
+      "restored_psnr": 25.55854839332578,
+      "restored_ssim": 0.867356538772583
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05763.jpg",
+      "input_psnr": 17.849101529437963,
+      "input_ssim": 0.7342748641967773,
+      "restored_psnr": 23.523457423167212,
+      "restored_ssim": 0.8055503368377686
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05764.jpg",
+      "input_psnr": 17.71783623214447,
+      "input_ssim": 0.7047678828239441,
+      "restored_psnr": 24.934969139419756,
+      "restored_ssim": 0.7578790783882141
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05765.jpg",
+      "input_psnr": 18.554478755758673,
+      "input_ssim": 0.8637843132019043,
+      "restored_psnr": 26.939706635413877,
+      "restored_ssim": 0.9107694029808044
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05766.jpg",
+      "input_psnr": 20.402542867455615,
+      "input_ssim": 0.8046679496765137,
+      "restored_psnr": 30.711634323877497,
+      "restored_ssim": 0.8840325474739075
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05767.jpg",
+      "input_psnr": 26.008656633095896,
+      "input_ssim": 0.8753364682197571,
+      "restored_psnr": 27.772735660210678,
+      "restored_ssim": 0.8254175186157227
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05768.jpg",
+      "input_psnr": 23.846277311457733,
+      "input_ssim": 0.8513972163200378,
+      "restored_psnr": 28.76747662879758,
+      "restored_ssim": 0.8361632227897644
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05769.jpg",
+      "input_psnr": 15.136257796462246,
+      "input_ssim": 0.7126575112342834,
+      "restored_psnr": 23.075787935456006,
+      "restored_ssim": 0.8655351996421814
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05770.jpg",
+      "input_psnr": 22.787192028134783,
+      "input_ssim": 0.9242013096809387,
+      "restored_psnr": 27.921489750828098,
+      "restored_ssim": 0.9583912491798401
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05771.jpg",
+      "input_psnr": 22.874683932824883,
+      "input_ssim": 0.859383761882782,
+      "restored_psnr": 28.56987583046496,
+      "restored_ssim": 0.8542153835296631
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05772.jpg",
+      "input_psnr": 18.17287389029265,
+      "input_ssim": 0.6486654281616211,
+      "restored_psnr": 24.622177674671384,
+      "restored_ssim": 0.8017964363098145
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05773.jpg",
+      "input_psnr": 20.58627340973399,
+      "input_ssim": 0.837745726108551,
+      "restored_psnr": 24.53252637361949,
+      "restored_ssim": 0.8535851836204529
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05774.jpg",
+      "input_psnr": 21.400687755219288,
+      "input_ssim": 0.797588586807251,
+      "restored_psnr": 25.97297735885543,
+      "restored_ssim": 0.8409639000892639
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05775.jpg",
+      "input_psnr": 17.67373353323828,
+      "input_ssim": 0.7222535014152527,
+      "restored_psnr": 23.25974893802877,
+      "restored_ssim": 0.7503510117530823
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05776.jpg",
+      "input_psnr": 16.98525950038107,
+      "input_ssim": 0.7369750142097473,
+      "restored_psnr": 26.215331810480734,
+      "restored_ssim": 0.9050166606903076
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05777.jpg",
+      "input_psnr": 18.995471040979258,
+      "input_ssim": 0.7670604586601257,
+      "restored_psnr": 28.053962901587685,
+      "restored_ssim": 0.8379586338996887
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05778.jpg",
+      "input_psnr": 17.865048783166657,
+      "input_ssim": 0.6718833446502686,
+      "restored_psnr": 25.363043305218792,
+      "restored_ssim": 0.7922735214233398
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05779.jpg",
+      "input_psnr": 15.173870076733989,
+      "input_ssim": 0.6026244163513184,
+      "restored_psnr": 23.466231874303002,
+      "restored_ssim": 0.7891004085540771
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05780.jpg",
+      "input_psnr": 15.809114705608678,
+      "input_ssim": 0.5736400485038757,
+      "restored_psnr": 23.27199974553323,
+      "restored_ssim": 0.7882535457611084
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05781.jpg",
+      "input_psnr": 19.40834495744062,
+      "input_ssim": 0.7663328647613525,
+      "restored_psnr": 23.690837731833795,
+      "restored_ssim": 0.8037648797035217
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05782.jpg",
+      "input_psnr": 17.654485490833004,
+      "input_ssim": 0.49806952476501465,
+      "restored_psnr": 24.420116957502408,
+      "restored_ssim": 0.6981047987937927
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05783.jpg",
+      "input_psnr": 16.51284047827002,
+      "input_ssim": 0.797652542591095,
+      "restored_psnr": 28.595016658534142,
+      "restored_ssim": 0.9146822094917297
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05784.jpg",
+      "input_psnr": 20.039755998851735,
+      "input_ssim": 0.7119901776313782,
+      "restored_psnr": 27.370991454241246,
+      "restored_ssim": 0.7156969904899597
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05785.jpg",
+      "input_psnr": 21.985933550001384,
+      "input_ssim": 0.8116270899772644,
+      "restored_psnr": 28.945262370770703,
+      "restored_ssim": 0.8910655379295349
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05786.jpg",
+      "input_psnr": 23.002654656121013,
+      "input_ssim": 0.9097521305084229,
+      "restored_psnr": 27.139907014094284,
+      "restored_ssim": 0.9212538599967957
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05787.jpg",
+      "input_psnr": 25.672330376486276,
+      "input_ssim": 0.832756519317627,
+      "restored_psnr": 25.167526168041768,
+      "restored_ssim": 0.8526232242584229
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05788.jpg",
+      "input_psnr": 20.263927653241144,
+      "input_ssim": 0.7907809615135193,
+      "restored_psnr": 27.00962827305325,
+      "restored_ssim": 0.8295157551765442
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05789.jpg",
+      "input_psnr": 17.20706162924525,
+      "input_ssim": 0.6728470921516418,
+      "restored_psnr": 25.256273973648202,
+      "restored_ssim": 0.7493682503700256
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05790.jpg",
+      "input_psnr": 21.130324534678564,
+      "input_ssim": 0.8274657130241394,
+      "restored_psnr": 27.237830491880175,
+      "restored_ssim": 0.8517597317695618
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05791.jpg",
+      "input_psnr": 17.87863966582027,
+      "input_ssim": 0.5760272145271301,
+      "restored_psnr": 27.31125884011684,
+      "restored_ssim": 0.822729766368866
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05792.jpg",
+      "input_psnr": 22.522456827805193,
+      "input_ssim": 0.7358651161193848,
+      "restored_psnr": 27.75635051312563,
+      "restored_ssim": 0.6954350471496582
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05793.jpg",
+      "input_psnr": 18.65875877587953,
+      "input_ssim": 0.7293103337287903,
+      "restored_psnr": 28.053988402438815,
+      "restored_ssim": 0.7468937039375305
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05794.jpg",
+      "input_psnr": 18.522753145258232,
+      "input_ssim": 0.7813816070556641,
+      "restored_psnr": 27.49962968209189,
+      "restored_ssim": 0.845491349697113
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05795.jpg",
+      "input_psnr": 16.9412620892385,
+      "input_ssim": 0.5929739475250244,
+      "restored_psnr": 25.114617641635025,
+      "restored_ssim": 0.8495903015136719
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05796.jpg",
+      "input_psnr": 20.081876349638563,
+      "input_ssim": 0.6075541377067566,
+      "restored_psnr": 25.8648781091005,
+      "restored_ssim": 0.8468549251556396
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05797.jpg",
+      "input_psnr": 24.486096256849507,
+      "input_ssim": 0.822456419467926,
+      "restored_psnr": 27.556852978803406,
+      "restored_ssim": 0.7678200602531433
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05798.jpg",
+      "input_psnr": 16.736395173516158,
+      "input_ssim": 0.6941019892692566,
+      "restored_psnr": 24.51911411715724,
+      "restored_ssim": 0.7980632781982422
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05799.jpg",
+      "input_psnr": 18.533985023815674,
+      "input_ssim": 0.8904321789741516,
+      "restored_psnr": 32.20317075754081,
+      "restored_ssim": 0.9334747195243835
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05800.jpg",
+      "input_psnr": 19.4322952389308,
+      "input_ssim": 0.7535302042961121,
+      "restored_psnr": 24.769743903277682,
+      "restored_ssim": 0.8168785572052002
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05801.jpg",
+      "input_psnr": 21.191745197504478,
+      "input_ssim": 0.7695519328117371,
+      "restored_psnr": 25.55623281695095,
+      "restored_ssim": 0.8127581477165222
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05802.jpg",
+      "input_psnr": 15.026802633020623,
+      "input_ssim": 0.7481560111045837,
+      "restored_psnr": 27.408671545983474,
+      "restored_ssim": 0.9334422945976257
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05803.jpg",
+      "input_psnr": 16.814698444759046,
+      "input_ssim": 0.66334068775177,
+      "restored_psnr": 26.30154827610373,
+      "restored_ssim": 0.8348057866096497
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05804.jpg",
+      "input_psnr": 17.810117728312186,
+      "input_ssim": 0.7615211009979248,
+      "restored_psnr": 21.796338763512153,
+      "restored_ssim": 0.8465006947517395
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05805.jpg",
+      "input_psnr": 21.707662690371098,
+      "input_ssim": 0.8305484652519226,
+      "restored_psnr": 26.547387779661527,
+      "restored_ssim": 0.8277707695960999
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05806.jpg",
+      "input_psnr": 16.04034772236571,
+      "input_ssim": 0.6230542659759521,
+      "restored_psnr": 27.704336521673618,
+      "restored_ssim": 0.8193194270133972
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05807.jpg",
+      "input_psnr": 19.772935493380903,
+      "input_ssim": 0.7993450164794922,
+      "restored_psnr": 25.138487783789305,
+      "restored_ssim": 0.8596968650817871
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05808.jpg",
+      "input_psnr": 19.177501508805257,
+      "input_ssim": 0.6919255256652832,
+      "restored_psnr": 25.70432895347097,
+      "restored_ssim": 0.7676449418067932
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05809.jpg",
+      "input_psnr": 15.971177965578855,
+      "input_ssim": 0.6215882897377014,
+      "restored_psnr": 23.415846808569025,
+      "restored_ssim": 0.8304900527000427
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05810.jpg",
+      "input_psnr": 15.427553501149498,
+      "input_ssim": 0.6919779777526855,
+      "restored_psnr": 23.40265931377776,
+      "restored_ssim": 0.8349978923797607
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05811.jpg",
+      "input_psnr": 20.707116263923805,
+      "input_ssim": 0.8195781707763672,
+      "restored_psnr": 27.87784115094344,
+      "restored_ssim": 0.8134212493896484
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05812.jpg",
+      "input_psnr": 19.811439010591762,
+      "input_ssim": 0.9065071940422058,
+      "restored_psnr": 28.331348307524898,
+      "restored_ssim": 0.9603636860847473
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05813.jpg",
+      "input_psnr": 18.774649980600557,
+      "input_ssim": 0.7975431084632874,
+      "restored_psnr": 27.055589918887918,
+      "restored_ssim": 0.8180677890777588
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05814.jpg",
+      "input_psnr": 21.748443031978848,
+      "input_ssim": 0.8273322582244873,
+      "restored_psnr": 26.38417908208225,
+      "restored_ssim": 0.8197989463806152
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05815.jpg",
+      "input_psnr": 19.376700568878192,
+      "input_ssim": 0.7748103141784668,
+      "restored_psnr": 28.90568999776583,
+      "restored_ssim": 0.8993890881538391
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05816.jpg",
+      "input_psnr": 19.600599117779417,
+      "input_ssim": 0.6814432740211487,
+      "restored_psnr": 25.526009843197734,
+      "restored_ssim": 0.7103654742240906
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05817.jpg",
+      "input_psnr": 19.905051129867797,
+      "input_ssim": 0.8241310119628906,
+      "restored_psnr": 27.76949953792819,
+      "restored_ssim": 0.8733792304992676
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05818.jpg",
+      "input_psnr": 18.87722603073235,
+      "input_ssim": 0.7733283042907715,
+      "restored_psnr": 24.97050263767266,
+      "restored_ssim": 0.8781169056892395
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05819.jpg",
+      "input_psnr": 18.345099331821956,
+      "input_ssim": 0.8967437148094177,
+      "restored_psnr": 26.142336753306154,
+      "restored_ssim": 0.8907421231269836
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05820.jpg",
+      "input_psnr": 17.240205959566005,
+      "input_ssim": 0.6965665817260742,
+      "restored_psnr": 25.450217142999612,
+      "restored_ssim": 0.809432327747345
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05821.jpg",
+      "input_psnr": 21.468746501268793,
+      "input_ssim": 0.8796701431274414,
+      "restored_psnr": 24.750834030678533,
+      "restored_ssim": 0.8582754135131836
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05822.jpg",
+      "input_psnr": 17.30557672875169,
+      "input_ssim": 0.6314948797225952,
+      "restored_psnr": 23.265142109116933,
+      "restored_ssim": 0.7288622856140137
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05823.jpg",
+      "input_psnr": 16.690097424012674,
+      "input_ssim": 0.8285086750984192,
+      "restored_psnr": 32.43290383506035,
+      "restored_ssim": 0.9514365196228027
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05824.jpg",
+      "input_psnr": 16.932156514828854,
+      "input_ssim": 0.7659955620765686,
+      "restored_psnr": 26.562807510657123,
+      "restored_ssim": 0.8672375679016113
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05825.jpg",
+      "input_psnr": 16.794743926017325,
+      "input_ssim": 0.7730724215507507,
+      "restored_psnr": 27.6843493753351,
+      "restored_ssim": 0.8965255618095398
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05826.jpg",
+      "input_psnr": 17.422726179908747,
+      "input_ssim": 0.662632167339325,
+      "restored_psnr": 25.14791242773488,
+      "restored_ssim": 0.8283986449241638
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05827.jpg",
+      "input_psnr": 20.4168141838603,
+      "input_ssim": 0.7748830318450928,
+      "restored_psnr": 23.947695271561848,
+      "restored_ssim": 0.7983123660087585
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05828.jpg",
+      "input_psnr": 18.698953498435767,
+      "input_ssim": 0.8083827495574951,
+      "restored_psnr": 30.416532985287567,
+      "restored_ssim": 0.8706083297729492
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05829.jpg",
+      "input_psnr": 17.433063446109067,
+      "input_ssim": 0.7098167538642883,
+      "restored_psnr": 26.954529018765978,
+      "restored_ssim": 0.8136058449745178
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05830.jpg",
+      "input_psnr": 22.867942385168647,
+      "input_ssim": 0.8528008460998535,
+      "restored_psnr": 29.93663878663004,
+      "restored_ssim": 0.8602132797241211
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05831.jpg",
+      "input_psnr": 21.37698637573275,
+      "input_ssim": 0.8691794276237488,
+      "restored_psnr": 30.079384203354923,
+      "restored_ssim": 0.9205713272094727
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05832.jpg",
+      "input_psnr": 17.565478952422428,
+      "input_ssim": 0.7196992039680481,
+      "restored_psnr": 24.956405757936846,
+      "restored_ssim": 0.8648771643638611
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05833.jpg",
+      "input_psnr": 16.69552987980837,
+      "input_ssim": 0.6839971542358398,
+      "restored_psnr": 25.539037088130904,
+      "restored_ssim": 0.7897744178771973
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05834.jpg",
+      "input_psnr": 16.229627857901022,
+      "input_ssim": 0.7449029088020325,
+      "restored_psnr": 28.02423226350884,
+      "restored_ssim": 0.8652389645576477
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05835.jpg",
+      "input_psnr": 21.85570251501776,
+      "input_ssim": 0.7760739326477051,
+      "restored_psnr": 24.65378959463562,
+      "restored_ssim": 0.8010175824165344
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05836.jpg",
+      "input_psnr": 19.323723168689853,
+      "input_ssim": 0.7449763417243958,
+      "restored_psnr": 25.876669268939608,
+      "restored_ssim": 0.7735636234283447
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05837.jpg",
+      "input_psnr": 15.518699488402374,
+      "input_ssim": 0.5730233788490295,
+      "restored_psnr": 23.803998772497916,
+      "restored_ssim": 0.7210569381713867
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05838.jpg",
+      "input_psnr": 19.170757045015378,
+      "input_ssim": 0.7510468363761902,
+      "restored_psnr": 29.87832640704015,
+      "restored_ssim": 0.855294406414032
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05839.jpg",
+      "input_psnr": 17.25415432246525,
+      "input_ssim": 0.6674824357032776,
+      "restored_psnr": 26.572298800814792,
+      "restored_ssim": 0.7870121002197266
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05840.jpg",
+      "input_psnr": 16.248602183132274,
+      "input_ssim": 0.6945709586143494,
+      "restored_psnr": 23.743428251165817,
+      "restored_ssim": 0.7212632298469543
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05841.jpg",
+      "input_psnr": 18.161211842462247,
+      "input_ssim": 0.7921002507209778,
+      "restored_psnr": 23.337394719110346,
+      "restored_ssim": 0.8663899898529053
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05842.jpg",
+      "input_psnr": 19.512386701613195,
+      "input_ssim": 0.7316487431526184,
+      "restored_psnr": 27.89149003102636,
+      "restored_ssim": 0.7223730087280273
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05843.jpg",
+      "input_psnr": 19.96618392869909,
+      "input_ssim": 0.842169463634491,
+      "restored_psnr": 25.539579374581333,
+      "restored_ssim": 0.8645322322845459
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05844.jpg",
+      "input_psnr": 21.928528162111117,
+      "input_ssim": 0.8048616051673889,
+      "restored_psnr": 25.59235971296087,
+      "restored_ssim": 0.8293485641479492
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05845.jpg",
+      "input_psnr": 22.0261013447576,
+      "input_ssim": 0.7609982490539551,
+      "restored_psnr": 26.062197596429545,
+      "restored_ssim": 0.7971057891845703
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05846.jpg",
+      "input_psnr": 23.05800921878997,
+      "input_ssim": 0.7937009930610657,
+      "restored_psnr": 26.501910696664645,
+      "restored_ssim": 0.7777155041694641
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05847.jpg",
+      "input_psnr": 15.80131754583454,
+      "input_ssim": 0.6484595537185669,
+      "restored_psnr": 27.050562988842902,
+      "restored_ssim": 0.7499668002128601
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05848.jpg",
+      "input_psnr": 19.504271841988515,
+      "input_ssim": 0.7182343602180481,
+      "restored_psnr": 24.75563917764553,
+      "restored_ssim": 0.8202541470527649
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05849.jpg",
+      "input_psnr": 16.51937081437713,
+      "input_ssim": 0.7677843570709229,
+      "restored_psnr": 27.07459869623119,
+      "restored_ssim": 0.9006914496421814
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05850.jpg",
+      "input_psnr": 19.87553070888801,
+      "input_ssim": 0.772364616394043,
+      "restored_psnr": 26.77849021535597,
+      "restored_ssim": 0.8237054347991943
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05851.jpg",
+      "input_psnr": 18.607165065218396,
+      "input_ssim": 0.7192549705505371,
+      "restored_psnr": 29.231067960062983,
+      "restored_ssim": 0.7754004597663879
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05852.jpg",
+      "input_psnr": 19.08007421292311,
+      "input_ssim": 0.6317233443260193,
+      "restored_psnr": 20.87208478361202,
+      "restored_ssim": 0.721493661403656
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05853.jpg",
+      "input_psnr": 18.75650294560779,
+      "input_ssim": 0.7908846735954285,
+      "restored_psnr": 28.71141667288386,
+      "restored_ssim": 0.8748540282249451
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05854.jpg",
+      "input_psnr": 17.176767215655047,
+      "input_ssim": 0.6118137836456299,
+      "restored_psnr": 23.77872167485307,
+      "restored_ssim": 0.7086192965507507
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05855.jpg",
+      "input_psnr": 19.4191395389925,
+      "input_ssim": 0.798455536365509,
+      "restored_psnr": 25.931878975742272,
+      "restored_ssim": 0.8696512579917908
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05856.jpg",
+      "input_psnr": 20.39144848441046,
+      "input_ssim": 0.7218840718269348,
+      "restored_psnr": 31.951817651704463,
+      "restored_ssim": 0.8521092534065247
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05857.jpg",
+      "input_psnr": 18.321623287939655,
+      "input_ssim": 0.7387104034423828,
+      "restored_psnr": 27.94007581530512,
+      "restored_ssim": 0.8205556869506836
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05858.jpg",
+      "input_psnr": 17.786305449013526,
+      "input_ssim": 0.7635006904602051,
+      "restored_psnr": 25.061010937842777,
+      "restored_ssim": 0.8253883719444275
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05859.jpg",
+      "input_psnr": 19.701469691195253,
+      "input_ssim": 0.7920987606048584,
+      "restored_psnr": 28.836057481426742,
+      "restored_ssim": 0.8242936730384827
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05860.jpg",
+      "input_psnr": 16.57710059193904,
+      "input_ssim": 0.7394871711730957,
+      "restored_psnr": 24.649289942847176,
+      "restored_ssim": 0.8691597580909729
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05861.jpg",
+      "input_psnr": 15.838356453239832,
+      "input_ssim": 0.5587773323059082,
+      "restored_psnr": 24.378221878541062,
+      "restored_ssim": 0.7659710049629211
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05862.jpg",
+      "input_psnr": 20.150619109440186,
+      "input_ssim": 0.8121292591094971,
+      "restored_psnr": 30.931288333165412,
+      "restored_ssim": 0.9317019581794739
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05863.jpg",
+      "input_psnr": 18.29772997135567,
+      "input_ssim": 0.7489804625511169,
+      "restored_psnr": 24.916946726118372,
+      "restored_ssim": 0.8147998452186584
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05864.jpg",
+      "input_psnr": 19.766256909524422,
+      "input_ssim": 0.8454607129096985,
+      "restored_psnr": 26.469990039471206,
+      "restored_ssim": 0.9022099375724792
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05865.jpg",
+      "input_psnr": 25.093483596094053,
+      "input_ssim": 0.7081734538078308,
+      "restored_psnr": 27.30978863774199,
+      "restored_ssim": 0.6245993971824646
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05866.jpg",
+      "input_psnr": 16.524270125798385,
+      "input_ssim": 0.6811398863792419,
+      "restored_psnr": 26.250020195944114,
+      "restored_ssim": 0.7734200954437256
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05867.jpg",
+      "input_psnr": 20.213476511420893,
+      "input_ssim": 0.8097272515296936,
+      "restored_psnr": 23.316383379113198,
+      "restored_ssim": 0.8761302828788757
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05868.jpg",
+      "input_psnr": 20.307509770436738,
+      "input_ssim": 0.7166848182678223,
+      "restored_psnr": 30.08125133455853,
+      "restored_ssim": 0.723645031452179
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05869.jpg",
+      "input_psnr": 22.911136395500815,
+      "input_ssim": 0.7541043162345886,
+      "restored_psnr": 26.358453078746635,
+      "restored_ssim": 0.7017142176628113
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05870.jpg",
+      "input_psnr": 16.147579521104763,
+      "input_ssim": 0.7158863544464111,
+      "restored_psnr": 28.508730411806074,
+      "restored_ssim": 0.7787554264068604
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05871.jpg",
+      "input_psnr": 17.629440693682415,
+      "input_ssim": 0.6661011576652527,
+      "restored_psnr": 23.642923798553138,
+      "restored_ssim": 0.7881100177764893
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05872.jpg",
+      "input_psnr": 19.611567941684626,
+      "input_ssim": 0.7752435803413391,
+      "restored_psnr": 30.17238819458685,
+      "restored_ssim": 0.8672378659248352
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05873.jpg",
+      "input_psnr": 19.57104887635873,
+      "input_ssim": 0.7932841181755066,
+      "restored_psnr": 27.78779032177953,
+      "restored_ssim": 0.8500385880470276
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05874.jpg",
+      "input_psnr": 19.85771434228416,
+      "input_ssim": 0.49683037400245667,
+      "restored_psnr": 26.869571825316587,
+      "restored_ssim": 0.8627138137817383
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05875.jpg",
+      "input_psnr": 19.29983019178781,
+      "input_ssim": 0.7674886584281921,
+      "restored_psnr": 27.753683284690393,
+      "restored_ssim": 0.7970390915870667
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05876.jpg",
+      "input_psnr": 14.270460020061492,
+      "input_ssim": 0.6928761601448059,
+      "restored_psnr": 27.887861964354926,
+      "restored_ssim": 0.8173930644989014
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05877.jpg",
+      "input_psnr": 18.219657340275198,
+      "input_ssim": 0.7640807032585144,
+      "restored_psnr": 27.80292447782987,
+      "restored_ssim": 0.8516495227813721
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05878.jpg",
+      "input_psnr": 15.44378647881908,
+      "input_ssim": 0.8088931441307068,
+      "restored_psnr": 29.92894647717128,
+      "restored_ssim": 0.9419034123420715
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05879.jpg",
+      "input_psnr": 19.82295381192607,
+      "input_ssim": 0.7209057807922363,
+      "restored_psnr": 27.446794700820682,
+      "restored_ssim": 0.7974165081977844
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05880.jpg",
+      "input_psnr": 18.512049694987674,
+      "input_ssim": 0.7179161906242371,
+      "restored_psnr": 23.899329798524565,
+      "restored_ssim": 0.7919044494628906
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05881.jpg",
+      "input_psnr": 19.142729597246472,
+      "input_ssim": 0.8288884162902832,
+      "restored_psnr": 24.50866166211318,
+      "restored_ssim": 0.8447771072387695
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05882.jpg",
+      "input_psnr": 22.00698126019845,
+      "input_ssim": 0.8771560788154602,
+      "restored_psnr": 29.021654727934873,
+      "restored_ssim": 0.9284048080444336
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05883.jpg",
+      "input_psnr": 18.484838525853412,
+      "input_ssim": 0.7237678170204163,
+      "restored_psnr": 25.844654709978276,
+      "restored_ssim": 0.801513671875
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05884.jpg",
+      "input_psnr": 14.76413594377949,
+      "input_ssim": 0.743368923664093,
+      "restored_psnr": 25.63600208028499,
+      "restored_ssim": 0.9234082102775574
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05885.jpg",
+      "input_psnr": 18.718289693545998,
+      "input_ssim": 0.8245880603790283,
+      "restored_psnr": 29.92076735486268,
+      "restored_ssim": 0.8915526866912842
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05886.jpg",
+      "input_psnr": 20.36847137512391,
+      "input_ssim": 0.8075488209724426,
+      "restored_psnr": 25.943689365823207,
+      "restored_ssim": 0.8562547564506531
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05887.jpg",
+      "input_psnr": 16.961582322660043,
+      "input_ssim": 0.6352971792221069,
+      "restored_psnr": 27.997273972007907,
+      "restored_ssim": 0.8106228709220886
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05888.jpg",
+      "input_psnr": 20.75667470229898,
+      "input_ssim": 0.787041962146759,
+      "restored_psnr": 26.94787476278242,
+      "restored_ssim": 0.8497238159179688
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05889.jpg",
+      "input_psnr": 18.94521002701564,
+      "input_ssim": 0.804124116897583,
+      "restored_psnr": 28.005724871575495,
+      "restored_ssim": 0.9523244500160217
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05890.jpg",
+      "input_psnr": 19.066327377954472,
+      "input_ssim": 0.7163283228874207,
+      "restored_psnr": 26.86167946127124,
+      "restored_ssim": 0.8118438720703125
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05891.jpg",
+      "input_psnr": 16.750846611078654,
+      "input_ssim": 0.22849033772945404,
+      "restored_psnr": 24.005114691801687,
+      "restored_ssim": 0.32525506615638733
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05892.jpg",
+      "input_psnr": 15.861754225714144,
+      "input_ssim": 0.7239475846290588,
+      "restored_psnr": 22.569473027863964,
+      "restored_ssim": 0.8331571221351624
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05893.jpg",
+      "input_psnr": 15.029269559674121,
+      "input_ssim": 0.6930034756660461,
+      "restored_psnr": 24.292680795398383,
+      "restored_ssim": 0.8215563893318176
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05894.jpg",
+      "input_psnr": 18.508961590147795,
+      "input_ssim": 0.7220998406410217,
+      "restored_psnr": 23.343331518148418,
+      "restored_ssim": 0.7813696265220642
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05895.jpg",
+      "input_psnr": 21.83018216647218,
+      "input_ssim": 0.7415681481361389,
+      "restored_psnr": 27.972042122624295,
+      "restored_ssim": 0.8103079795837402
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05896.jpg",
+      "input_psnr": 16.040547457552684,
+      "input_ssim": 0.6606975793838501,
+      "restored_psnr": 23.05294372960171,
+      "restored_ssim": 0.7863962650299072
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05897.jpg",
+      "input_psnr": 14.129460078567352,
+      "input_ssim": 0.5200079083442688,
+      "restored_psnr": 24.608309280676245,
+      "restored_ssim": 0.7279297709465027
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05898.jpg",
+      "input_psnr": 15.621273132623353,
+      "input_ssim": 0.7606956362724304,
+      "restored_psnr": 24.802410135812167,
+      "restored_ssim": 0.7965351939201355
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05899.jpg",
+      "input_psnr": 23.196491400386392,
+      "input_ssim": 0.7472085356712341,
+      "restored_psnr": 29.511029811333835,
+      "restored_ssim": 0.9321196675300598
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05900.jpg",
+      "input_psnr": 17.71359786880128,
+      "input_ssim": 0.7333419919013977,
+      "restored_psnr": 27.912033578928735,
+      "restored_ssim": 0.8990509510040283
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05901.jpg",
+      "input_psnr": 17.113407124344675,
+      "input_ssim": 0.6881132125854492,
+      "restored_psnr": 24.347412189565002,
+      "restored_ssim": 0.8772900700569153
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05902.jpg",
+      "input_psnr": 19.89731779523518,
+      "input_ssim": 0.7896179556846619,
+      "restored_psnr": 25.634588567096838,
+      "restored_ssim": 0.8097618222236633
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05903.jpg",
+      "input_psnr": 15.200167264973558,
+      "input_ssim": 0.721344530582428,
+      "restored_psnr": 27.115709364333853,
+      "restored_ssim": 0.9100759029388428
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05904.jpg",
+      "input_psnr": 14.7413206878452,
+      "input_ssim": 0.6189917922019958,
+      "restored_psnr": 24.085631070958602,
+      "restored_ssim": 0.7919354438781738
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05905.jpg",
+      "input_psnr": 19.863750717175957,
+      "input_ssim": 0.6846702694892883,
+      "restored_psnr": 28.30612066652836,
+      "restored_ssim": 0.7729330062866211
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05906.jpg",
+      "input_psnr": 20.380808320592063,
+      "input_ssim": 0.7693914771080017,
+      "restored_psnr": 26.22563342305146,
+      "restored_ssim": 0.8514454960823059
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05907.jpg",
+      "input_psnr": 18.713521543609975,
+      "input_ssim": 0.809180736541748,
+      "restored_psnr": 26.25854233903468,
+      "restored_ssim": 0.8399056792259216
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05908.jpg",
+      "input_psnr": 17.247720353569406,
+      "input_ssim": 0.7438586354255676,
+      "restored_psnr": 28.025583754570704,
+      "restored_ssim": 0.8085694909095764
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05909.jpg",
+      "input_psnr": 14.148546551364971,
+      "input_ssim": 0.7316355109214783,
+      "restored_psnr": 28.715120758654212,
+      "restored_ssim": 0.8985416889190674
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05910.jpg",
+      "input_psnr": 17.936592422150262,
+      "input_ssim": 0.5496930480003357,
+      "restored_psnr": 24.530050734781028,
+      "restored_ssim": 0.6405102610588074
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05911.jpg",
+      "input_psnr": 16.854365472901193,
+      "input_ssim": 0.7081993222236633,
+      "restored_psnr": 25.71132684636018,
+      "restored_ssim": 0.7561478018760681
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05912.jpg",
+      "input_psnr": 15.352239246723638,
+      "input_ssim": 0.5321449637413025,
+      "restored_psnr": 25.369171501545978,
+      "restored_ssim": 0.6676976680755615
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05913.jpg",
+      "input_psnr": 20.697831266168834,
+      "input_ssim": 0.825697660446167,
+      "restored_psnr": 27.543698054580304,
+      "restored_ssim": 0.8880317807197571
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05914.jpg",
+      "input_psnr": 20.01404825962534,
+      "input_ssim": 0.8316195607185364,
+      "restored_psnr": 28.799845498902652,
+      "restored_ssim": 0.8689846992492676
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05915.jpg",
+      "input_psnr": 17.723934106686695,
+      "input_ssim": 0.6739409565925598,
+      "restored_psnr": 27.035119155309133,
+      "restored_ssim": 0.8232073783874512
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05916.jpg",
+      "input_psnr": 19.163147510639263,
+      "input_ssim": 0.8836023807525635,
+      "restored_psnr": 29.224339962372557,
+      "restored_ssim": 0.868847668170929
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05917.jpg",
+      "input_psnr": 18.268490518539316,
+      "input_ssim": 0.7797107696533203,
+      "restored_psnr": 26.765918172725804,
+      "restored_ssim": 0.8421707153320312
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05918.jpg",
+      "input_psnr": 19.719705523146747,
+      "input_ssim": 0.7681536078453064,
+      "restored_psnr": 26.657300730140374,
+      "restored_ssim": 0.8776803016662598
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05919.jpg",
+      "input_psnr": 17.053349690610382,
+      "input_ssim": 0.6817267537117004,
+      "restored_psnr": 26.35622729961431,
+      "restored_ssim": 0.8050963282585144
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05920.jpg",
+      "input_psnr": 19.994450975367876,
+      "input_ssim": 0.7787601351737976,
+      "restored_psnr": 30.0875466460974,
+      "restored_ssim": 0.8706480860710144
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05921.jpg",
+      "input_psnr": 18.02797197875669,
+      "input_ssim": 0.7689392566680908,
+      "restored_psnr": 22.985148728023262,
+      "restored_ssim": 0.8414728045463562
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05922.jpg",
+      "input_psnr": 19.46212083253156,
+      "input_ssim": 0.6996577382087708,
+      "restored_psnr": 26.319092409969308,
+      "restored_ssim": 0.7661218643188477
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05923.jpg",
+      "input_psnr": 14.39665566875058,
+      "input_ssim": 0.6186630129814148,
+      "restored_psnr": 22.83188318940325,
+      "restored_ssim": 0.7750191688537598
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05924.jpg",
+      "input_psnr": 14.240550472855274,
+      "input_ssim": 0.6831297874450684,
+      "restored_psnr": 26.822514659145156,
+      "restored_ssim": 0.8815086483955383
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05925.jpg",
+      "input_psnr": 13.920253167814465,
+      "input_ssim": 0.634296178817749,
+      "restored_psnr": 21.809729941839826,
+      "restored_ssim": 0.8666271567344666
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05926.jpg",
+      "input_psnr": 16.57115081223961,
+      "input_ssim": 0.7062966227531433,
+      "restored_psnr": 28.5320669316838,
+      "restored_ssim": 0.786717414855957
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05927.jpg",
+      "input_psnr": 18.668744834142238,
+      "input_ssim": 0.6406490802764893,
+      "restored_psnr": 26.99856303041326,
+      "restored_ssim": 0.7460861206054688
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05928.jpg",
+      "input_psnr": 23.694625928373007,
+      "input_ssim": 0.7712854743003845,
+      "restored_psnr": 27.74251956782102,
+      "restored_ssim": 0.764707088470459
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05929.jpg",
+      "input_psnr": 15.951507283974582,
+      "input_ssim": 0.7862338423728943,
+      "restored_psnr": 23.755913721125808,
+      "restored_ssim": 0.9063202738761902
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05930.jpg",
+      "input_psnr": 20.055736429291045,
+      "input_ssim": 0.8668116927146912,
+      "restored_psnr": 29.388972817826136,
+      "restored_ssim": 0.970954418182373
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05931.jpg",
+      "input_psnr": 19.02664357405083,
+      "input_ssim": 0.8131690621376038,
+      "restored_psnr": 26.476709471222115,
+      "restored_ssim": 0.8123739361763
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05932.jpg",
+      "input_psnr": 18.4328338491491,
+      "input_ssim": 0.7595839500427246,
+      "restored_psnr": 23.08299647962281,
+      "restored_ssim": 0.9126715064048767
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05933.jpg",
+      "input_psnr": 16.48197488208467,
+      "input_ssim": 0.6616294980049133,
+      "restored_psnr": 24.106374912834887,
+      "restored_ssim": 0.8010640144348145
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05934.jpg",
+      "input_psnr": 13.879035631518217,
+      "input_ssim": 0.6419141292572021,
+      "restored_psnr": 19.719282021954395,
+      "restored_ssim": 0.7367865443229675
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05935.jpg",
+      "input_psnr": 18.51584212888554,
+      "input_ssim": 0.8564985394477844,
+      "restored_psnr": 27.754274304425614,
+      "restored_ssim": 0.9136233329772949
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05936.jpg",
+      "input_psnr": 20.02668114018235,
+      "input_ssim": 0.9252011179924011,
+      "restored_psnr": 30.53126782794386,
+      "restored_ssim": 0.9525306820869446
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05937.jpg",
+      "input_psnr": 15.488909935285381,
+      "input_ssim": 0.03710277006030083,
+      "restored_psnr": 22.788259416232947,
+      "restored_ssim": 0.06491971760988235
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05938.jpg",
+      "input_psnr": 19.367232766654958,
+      "input_ssim": 0.7453828454017639,
+      "restored_psnr": 25.796028188257814,
+      "restored_ssim": 0.8091415762901306
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05939.jpg",
+      "input_psnr": 18.849532871409416,
+      "input_ssim": 0.6771695017814636,
+      "restored_psnr": 27.023443495397007,
+      "restored_ssim": 0.8737564086914062
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05940.jpg",
+      "input_psnr": 24.585578768140202,
+      "input_ssim": 0.7415314316749573,
+      "restored_psnr": 28.249905943907944,
+      "restored_ssim": 0.8282148838043213
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05941.jpg",
+      "input_psnr": 19.231694855255725,
+      "input_ssim": 0.7048923373222351,
+      "restored_psnr": 23.507815019144346,
+      "restored_ssim": 0.8035287261009216
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05942.jpg",
+      "input_psnr": 19.911142153886953,
+      "input_ssim": 0.7202756404876709,
+      "restored_psnr": 24.344463482204617,
+      "restored_ssim": 0.7452230453491211
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05943.jpg",
+      "input_psnr": 20.258190983167882,
+      "input_ssim": 0.7648522257804871,
+      "restored_psnr": 27.416542704769064,
+      "restored_ssim": 0.8683950304985046
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05944.jpg",
+      "input_psnr": 18.791989255956196,
+      "input_ssim": 0.6941925883293152,
+      "restored_psnr": 27.285872767442463,
+      "restored_ssim": 0.8012769818305969
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05945.jpg",
+      "input_psnr": 21.94701670731684,
+      "input_ssim": 0.16093404591083527,
+      "restored_psnr": 27.257596297587405,
+      "restored_ssim": 0.26219937205314636
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05946.jpg",
+      "input_psnr": 15.404177200377633,
+      "input_ssim": 0.7434711456298828,
+      "restored_psnr": 26.841290689600058,
+      "restored_ssim": 0.8943167328834534
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05947.jpg",
+      "input_psnr": 17.089538539562152,
+      "input_ssim": 0.6552031636238098,
+      "restored_psnr": 24.551741750287206,
+      "restored_ssim": 0.7376458048820496
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05948.jpg",
+      "input_psnr": 17.68744891366674,
+      "input_ssim": 0.7492241859436035,
+      "restored_psnr": 27.63600657524435,
+      "restored_ssim": 0.8677331805229187
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05949.jpg",
+      "input_psnr": 16.279834305990036,
+      "input_ssim": 0.4717375338077545,
+      "restored_psnr": 26.877428951017286,
+      "restored_ssim": 0.7224671244621277
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05950.jpg",
+      "input_psnr": 16.719575524167656,
+      "input_ssim": 0.6389486193656921,
+      "restored_psnr": 25.58051399785157,
+      "restored_ssim": 0.7218133807182312
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05951.jpg",
+      "input_psnr": 24.213002098659665,
+      "input_ssim": 0.846983015537262,
+      "restored_psnr": 27.185195403742064,
+      "restored_ssim": 0.8702507019042969
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05952.jpg",
+      "input_psnr": 18.175540538671942,
+      "input_ssim": 0.7948351502418518,
+      "restored_psnr": 27.574116155114044,
+      "restored_ssim": 0.8261464238166809
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05953.jpg",
+      "input_psnr": 20.555031423871117,
+      "input_ssim": 0.8870223164558411,
+      "restored_psnr": 29.2256100904898,
+      "restored_ssim": 0.9373478889465332
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05954.jpg",
+      "input_psnr": 21.147464664890055,
+      "input_ssim": 0.7532190680503845,
+      "restored_psnr": 26.577365549798195,
+      "restored_ssim": 0.6559078097343445
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05955.jpg",
+      "input_psnr": 19.019344355557998,
+      "input_ssim": 0.701533854007721,
+      "restored_psnr": 24.997292280433587,
+      "restored_ssim": 0.7798706889152527
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05956.jpg",
+      "input_psnr": 17.51721426891794,
+      "input_ssim": 0.6984126567840576,
+      "restored_psnr": 23.38278781441926,
+      "restored_ssim": 0.8089351058006287
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05957.jpg",
+      "input_psnr": 18.930663698965265,
+      "input_ssim": 0.6811335682868958,
+      "restored_psnr": 27.027578022862492,
+      "restored_ssim": 0.7478300929069519
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05958.jpg",
+      "input_psnr": 17.708087806007324,
+      "input_ssim": 0.8293505311012268,
+      "restored_psnr": 20.696172120950173,
+      "restored_ssim": 0.8587610125541687
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05959.jpg",
+      "input_psnr": 15.36727044597262,
+      "input_ssim": 0.5922479629516602,
+      "restored_psnr": 23.439939107877443,
+      "restored_ssim": 0.7974422574043274
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05960.jpg",
+      "input_psnr": 22.5327970750283,
+      "input_ssim": 0.836721658706665,
+      "restored_psnr": 27.837779880667068,
+      "restored_ssim": 0.8790364265441895
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05961.jpg",
+      "input_psnr": 16.370120688649028,
+      "input_ssim": 0.6240034699440002,
+      "restored_psnr": 26.69696128756662,
+      "restored_ssim": 0.7901086807250977
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05962.jpg",
+      "input_psnr": 21.078573105739828,
+      "input_ssim": 0.7671210765838623,
+      "restored_psnr": 26.258415198974706,
+      "restored_ssim": 0.7379371523857117
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05963.jpg",
+      "input_psnr": 14.678721834097605,
+      "input_ssim": 0.6828539371490479,
+      "restored_psnr": 21.951542817994035,
+      "restored_ssim": 0.8175039291381836
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05964.jpg",
+      "input_psnr": 21.176978351369943,
+      "input_ssim": 0.8106133937835693,
+      "restored_psnr": 26.422404865323568,
+      "restored_ssim": 0.8504219651222229
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05965.jpg",
+      "input_psnr": 23.565294135178906,
+      "input_ssim": 0.7403552532196045,
+      "restored_psnr": 27.483143763711738,
+      "restored_ssim": 0.6650156378746033
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05966.jpg",
+      "input_psnr": 21.1183105488702,
+      "input_ssim": 0.5777615904808044,
+      "restored_psnr": 26.551690464235445,
+      "restored_ssim": 0.474235862493515
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05967.jpg",
+      "input_psnr": 13.513194424927029,
+      "input_ssim": 0.6252090930938721,
+      "restored_psnr": 20.829698494400645,
+      "restored_ssim": 0.7372199892997742
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05968.jpg",
+      "input_psnr": 15.437434977887428,
+      "input_ssim": 0.7464594841003418,
+      "restored_psnr": 23.12285183249586,
+      "restored_ssim": 0.8185396194458008
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05969.jpg",
+      "input_psnr": 17.71627695831307,
+      "input_ssim": 0.7404587864875793,
+      "restored_psnr": 25.184324512351314,
+      "restored_ssim": 0.8439407348632812
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05970.jpg",
+      "input_psnr": 15.89570124804673,
+      "input_ssim": 0.6384612917900085,
+      "restored_psnr": 24.0069496760753,
+      "restored_ssim": 0.711142361164093
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05971.jpg",
+      "input_psnr": 20.073895628746786,
+      "input_ssim": 0.8014786839485168,
+      "restored_psnr": 27.070066396314157,
+      "restored_ssim": 0.8649565577507019
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05972.jpg",
+      "input_psnr": 19.487452415312383,
+      "input_ssim": 0.777878999710083,
+      "restored_psnr": 25.398877838270543,
+      "restored_ssim": 0.8332651257514954
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05973.jpg",
+      "input_psnr": 16.69036587794256,
+      "input_ssim": 0.6282897591590881,
+      "restored_psnr": 22.69993455811133,
+      "restored_ssim": 0.7764732837677002
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05974.jpg",
+      "input_psnr": 17.534825814236324,
+      "input_ssim": 0.7175806164741516,
+      "restored_psnr": 23.853653793490682,
+      "restored_ssim": 0.855611264705658
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05975.jpg",
+      "input_psnr": 16.087569303590346,
+      "input_ssim": 0.7116948962211609,
+      "restored_psnr": 22.64720598852342,
+      "restored_ssim": 0.7683946490287781
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05976.jpg",
+      "input_psnr": 18.047130866813447,
+      "input_ssim": 0.7432383894920349,
+      "restored_psnr": 27.35267282574447,
+      "restored_ssim": 0.8328989148139954
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05977.jpg",
+      "input_psnr": 19.73028443845187,
+      "input_ssim": 0.8436203002929688,
+      "restored_psnr": 27.525379420286228,
+      "restored_ssim": 0.9345733523368835
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05978.jpg",
+      "input_psnr": 16.168155701445258,
+      "input_ssim": 0.5977275967597961,
+      "restored_psnr": 26.398783082984004,
+      "restored_ssim": 0.7328271865844727
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05979.jpg",
+      "input_psnr": 16.93097105673885,
+      "input_ssim": 0.6481705904006958,
+      "restored_psnr": 23.83162321014135,
+      "restored_ssim": 0.7542130947113037
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05980.jpg",
+      "input_psnr": 16.330658742057135,
+      "input_ssim": 0.6203364133834839,
+      "restored_psnr": 29.723234214254248,
+      "restored_ssim": 0.8837106227874756
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05981.jpg",
+      "input_psnr": 16.46701964758481,
+      "input_ssim": 0.7367108464241028,
+      "restored_psnr": 28.17408719212814,
+      "restored_ssim": 0.8122137188911438
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05982.jpg",
+      "input_psnr": 21.035068631673237,
+      "input_ssim": 0.7652006149291992,
+      "restored_psnr": 23.733509655433153,
+      "restored_ssim": 0.7761266231536865
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05983.jpg",
+      "input_psnr": 17.210527830904326,
+      "input_ssim": 0.6808337569236755,
+      "restored_psnr": 23.72091952277455,
+      "restored_ssim": 0.7388765811920166
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05984.jpg",
+      "input_psnr": 19.175909243697156,
+      "input_ssim": 0.816253662109375,
+      "restored_psnr": 26.11459445163941,
+      "restored_ssim": 0.8632850050926208
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05985.jpg",
+      "input_psnr": 15.410441915849109,
+      "input_ssim": 0.6665014624595642,
+      "restored_psnr": 24.605534218341013,
+      "restored_ssim": 0.8660061955451965
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05986.jpg",
+      "input_psnr": 19.549268721873567,
+      "input_ssim": 0.706221878528595,
+      "restored_psnr": 24.618162333775548,
+      "restored_ssim": 0.7853068709373474
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05987.jpg",
+      "input_psnr": 18.792088026311987,
+      "input_ssim": 0.7837372422218323,
+      "restored_psnr": 26.465319191221614,
+      "restored_ssim": 0.8388023376464844
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05988.jpg",
+      "input_psnr": 16.470026770246417,
+      "input_ssim": 0.626801073551178,
+      "restored_psnr": 23.80896492202995,
+      "restored_ssim": 0.6940825581550598
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05989.jpg",
+      "input_psnr": 21.84156556055241,
+      "input_ssim": 0.24994675815105438,
+      "restored_psnr": 28.010013900669513,
+      "restored_ssim": 0.5567525029182434
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05990.jpg",
+      "input_psnr": 17.050323205568255,
+      "input_ssim": 0.692272961139679,
+      "restored_psnr": 26.447749654290376,
+      "restored_ssim": 0.8589119911193848
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05991.jpg",
+      "input_psnr": 22.179932389232757,
+      "input_ssim": 0.8376162052154541,
+      "restored_psnr": 25.848902506862768,
+      "restored_ssim": 0.8160250782966614
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05992.jpg",
+      "input_psnr": 26.792935547783653,
+      "input_ssim": 0.8871931433677673,
+      "restored_psnr": 23.385240481870536,
+      "restored_ssim": 0.8401083946228027
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05993.jpg",
+      "input_psnr": 18.227720156605237,
+      "input_ssim": 0.7330918908119202,
+      "restored_psnr": 26.186468252713627,
+      "restored_ssim": 0.7464340329170227
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05994.jpg",
+      "input_psnr": 20.528884414598124,
+      "input_ssim": 0.8077549338340759,
+      "restored_psnr": 26.376520866881705,
+      "restored_ssim": 0.8639994263648987
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05995.jpg",
+      "input_psnr": 17.443828979695056,
+      "input_ssim": 0.6946005821228027,
+      "restored_psnr": 26.83792070544241,
+      "restored_ssim": 0.8347384929656982
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05996.jpg",
+      "input_psnr": 19.112536496296023,
+      "input_ssim": 0.650905191898346,
+      "restored_psnr": 25.919105342364492,
+      "restored_ssim": 0.8341126441955566
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05997.jpg",
+      "input_psnr": 20.673710063531303,
+      "input_ssim": 0.899861752986908,
+      "restored_psnr": 28.36294625625878,
+      "restored_ssim": 0.9216627478599548
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05998.jpg",
+      "input_psnr": 18.994039985767245,
+      "input_ssim": 0.7968504428863525,
+      "restored_psnr": 29.357342127150382,
+      "restored_ssim": 0.8463162779808044
+    },
+    {
+      "image": "/content/ChronoRestore/data/caltech256_restoration/test/05999.jpg",
+      "input_psnr": 17.973392892374598,
+      "input_ssim": 0.737384021282196,
+      "restored_psnr": 28.274190843815596,
+      "restored_ssim": 0.7431624531745911
+    }
+  ]
+}

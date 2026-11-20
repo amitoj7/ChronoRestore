@@ -1,0 +1,11 @@
+{
+  "name": "chronorestore",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "node web/build.mjs"
+  },
+  "dependencies": {
+    "onnxruntime-web": "1.31.1"
+  }
+}

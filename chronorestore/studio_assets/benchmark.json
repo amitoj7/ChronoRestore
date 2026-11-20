@@ -1,0 +1,37 @@
+{
+  "dataset": "BSDS500 test split",
+  "count": 200,
+  "crop": 256,
+  "seed": 1701,
+  "device": "mps:0",
+  "results": [
+    {
+      "method": "Damaged input",
+      "psnr": 18.817108609458487,
+      "ssim": 0.7274585787951946,
+      "median_ms": 0.000583939254283905
+    },
+    {
+      "method": "Median + autocontrast",
+      "psnr": 20.949227495283683,
+      "ssim": 0.7810090914368629,
+      "median_ms": 8.086916990578175
+    },
+    {
+      "method": "Standard",
+      "psnr": 25.44463378899141,
+      "ssim": 0.7934148091077805,
+      "median_ms": 14.684499939903617
+    },
+    {
+      "method": "Refine",
+      "psnr": 26.033574038982,
+      "ssim": 0.8232419970631599,
+      "median_ms": 52.47241607867181
+    }
+  ],
+  "refine_wins": {
+    "psnr": 200,
+    "ssim": 200
+  }
+}

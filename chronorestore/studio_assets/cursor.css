@@ -1,0 +1,18 @@
+@media (pointer: fine) {
+  body,
+  :is(a, button, summary, input[type="radio"]),
+  :is(#orbit, #orbit.dragging, #proof-range, #reveal) {
+    cursor: url("cursor-camera.svg") 11 11, auto;
+  }
+}
+.splash-cursor {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 30;
+  pointer-events: none;
+}
+@media (prefers-reduced-motion: reduce), (pointer: coarse) {
+  .splash-cursor { display: none; }
+}
